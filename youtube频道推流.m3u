@@ -1,0 +1,74 @@
+#EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png"  group-title="Youtube",民视新闻
+http://xx.xx.xx:9500/live.m3u8?c=1
+#EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png"  group-title="Youtube",中视新闻
+http://xx.xx.xx:9500/live.m3u8?c=2
+#EXTINF:-1 group-title="Youtube",中天新闻
+http://xx.xx.xx:9500/live.m3u8?c=3
+#EXTINF:-1  tvg-name="TVBS新闻台" group-title="Youtube",TBVS News
+http://xx.xx.xx:9500/live.m3u8?c=4
+#EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png"  group-title="Youtube",东森新闻
+http://xx.xx.xx:9500/live.m3u8?c=5
+#EXTINF:-1 tvg-id="6072" tvg-name="三立新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png"  group-title="Youtube",三立新闻
+http://xx.xx.xx:9500/live.m3u8?c=6
+#EXTINF:-1 group-title="Youtube",CBS News
+http://xx.xx.xx:9500/live.m3u8?c=7
+#EXTINF:-1 tvg-id="742" tvg-name="Sky News" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SkyNews.png"  group-title="Youtube",Sky News
+http://xx.xx.xx:9500/live.m3u8?c=8
+#EXTINF:-1 group-title="Youtube",Japan News
+http://xx.xx.xx:9500/live.m3u8?c=9
+#EXTINF:-1 group-title="Youtube",ABC News
+http://xx.xx.xx:9500/live.m3u8?c=10
+#EXTINF:-1 tvg-id="6143" tvg-name="台视新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png"  group-title="Youtube",台视新闻
+http://xx.xx.xx:9500/live.m3u8?c=11
+#EXTINF:-1 tvg-id="734" tvg-name="France 24" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/france24.png"  group-title="Youtube",France 24
+http://xx.xx.xx:9500/live.m3u8?c=13
+#EXTINF:-1 tvg-id="6140" tvg-name="Bloomberg" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png"  group-title="Youtube",Bloomberg
+http://xx.xx.xx:9500/live.m3u8?c=14
+#EXTINF:-1 group-title="Youtube",English For Daily
+http://xx.xx.xx:9500/live.m3u8?c=15
+#EXTINF:-1 group-title="Youtube",English Listening
+http://xx.xx.xx:9500/live.m3u8?c=16
+#EXTINF:-1 group-title="Youtube",English words for everydaylife
+http://xx.xx.xx:9500/live.m3u8?c=17
+#EXTINF:-1 tvg-id="31" tvg-name="港台電視31" tvg-logo="https://live.hkanime.com.hk/png_logo/31.png"  group-title="Youtube",RKHK31 
+http://xx.xx.xx:9500/live.m3u8?c=18
+#EXTINF:-1 tvg-id="32" tvg-name="港台電視32" tvg-logo="https://live.hkanime.com.hk/png_logo/32.png"  group-title="Youtube",RKHK32 
+http://xx.xx.xx:9500/live.m3u8?c=19
+#EXTINF:-1 group-title="Youtube",lofi hip hop radio - beats to relax/study to
+http://xx.xx.xx:9500/live.m3u8?c=20
+#EXTINF:-1 group-title="Youtube",lofi hip hop radio - beats to sleep/chill to
+http://xx.xx.xx:9500/live.m3u8?c=21
+#EXTINF:-1 tvg-id="6171" tvg-name="寰宇新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/寰宇新闻.png"  group-title="Youtube",寰宇新闻
+http://xx.xx.xx:9500/live.m3u8?c=22
+#EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS新闻.png"  group-title="Youtube",TVBS
+http://xx.xx.xx:9500/live.m3u8?c=25
+#EXTINF:-1 group-title="Youtube",凤凰新闻
+http://xx.xx.xx:9500/live.m3u8?c=26
+#EXTINF:-1 group-title="Youtube",凤凰中文
+http://xx.xx.xx:9500/live.m3u8?c=27
+#EXTINF:-1 group-title="Youtube",镜新闻
+http://xx.xx.xx:9500/live.m3u8?c=28
+#EXTINF:-1 group-title="Youtube",ANN News
+http://xx.xx.xx:9500/live.m3u8?c=29
+#EXTINF:-1 group-title="Youtube",DW News
+http://xx.xx.xx:9500/live.m3u8?c=30
+#EXTINF:-1 group-title="Youtube",English Speech
+http://xx.xx.xx:9500/live.m3u8?c=31
+#EXTINF:-1 group-title="Youtube",English Speech 2
+http://xx.xx.xx:9500/live.m3u8?c=32
+#EXTINF:-1 group-title="Youtube",English speech 3
+http://xx.xx.xx:9500/live.m3u8?c=33
+#EXTINF:-1 group-title="Youtube",半岛新闻
+http://xx.xx.xx:9500/live.m3u8?c=34
+#EXTINF:-1 group-title="Youtube",English speech 4
+http://xx.xx.xx:9500/live.m3u8?c=37
+#EXTINF:-1 group-title="Youtube",TRT world
+http://xx.xx.xx:9500/live.m3u8?c=35
+#EXTINF:-1 group-title="Youtube",GB News
+http://xx.xx.xx:9500/live.m3u8?c=36
+#EXTINF:-1 group-title="Youtube",CNA
+http://xx.xx.xx:9500/live.m3u8?c=38
+#EXTINF:-1 group-title="Youtube",NASA Live Stream
+http://xx.xx.xx:9500/live.m3u8?c=39
+#EXTINF:-1 group-title="Youtube",NASA Live Stream 2
+http://xx.xx.xx:9500/live.m3u8?c=40
