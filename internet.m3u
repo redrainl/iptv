@@ -107,3 +107,7 @@ rtmp://219.80.97.25/sat/tv721?$720P高清
 rtmp://219.80.97.25/sat/tv731?$720P高清
 #EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",ELEVEN 2HD
 rtmp://219.80.97.25/sat/tv741?$720P高清
+#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",港台31
+http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/13
+#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",港台32
+http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/14
