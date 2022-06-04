@@ -1,113 +1,74 @@
-#EXTM3U
-#EXTINF:-1 group-title="未分组",TVB J2
-http://meimei.kandiantv.cn/taitai/tbs.php?id=12
-#EXTINF:-1 group-title="未分组",TVB J2
-http://120.84.96.29:808/hls/86/index.m3u8
-#EXTINF:-1 group-title="未分组",無線新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=9
-#EXTINF:-1 group-title="未分组",無線財經
-http://meimei.kandiantv.cn/taitai/tbs.php?id=10
-#EXTINF:-1 group-title="未分组",有線新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=24
-#EXTINF:-1 group-title="未分组",有線財經
-http://meimei.kandiantv.cn/taitai/tbs.php?id=28
-#EXTINF:-1 group-title="未分组",有線体育
-http://meimei.kandiantv.cn/taitai/tbs.php?id=27
-#EXTINF:-1 group-title="未分组",赛马18台
-http://meimei.kandiantv.cn/taitai/tbs.php?id=25
-#EXTINF:-1 group-title="未分组",赛马603
-http://meimei.kandiantv.cn/taitai/tbs.php?id=26
-#EXTINF:-1 group-title="未分组",Now新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=16
-#EXTINF:-1 group-title="未分组",Now财经
-http://meimei.kandiantv.cn/taitai/tbs.php?id=17
-#EXTINF:-1 group-title="未分组",開电视
-http://meimei.kandiantv.cn/taitai/tbs.php?id=7
-#EXTINF:-1 group-title="未分组",Viu TV
-http://meimei.kandiantv.cn/taitai/tbs.php?id=8
-#EXTINF:-1 group-title="未分组",RTHK31
-http://meimei.kandiantv.cn/taitai/tbs.php?id=20
-#EXTINF:-1 group-title="未分组",RTHK32
-http://meimei.kandiantv.cn/taitai/tbs.php?id=21
-#EXTINF:-1 group-title="灣灣,#genre#",中視 HD 
-http://meimei.kandiantv.cn/taitai/tbs.php?id=82
-#EXTINF:-1 group-title="灣灣,#genre#",華視 HD 
-http://meimei.kandiantv.cn/taitai/tbs.php?id=86
-#EXTINF:-1 group-title="灣灣,#genre#",民視 HD 
-http://meimei.kandiantv.cn/taitai/tbs.php?id=84
-#EXTINF:-1 group-title="灣灣,#genre#",台視 HD 
-http://meimei.kandiantv.cn/taitai/tbs.php?id=83
-#EXTINF:-1 group-title="灣灣,#genre#",壹新闻
-http://meimei.kandiantv.cn/taitai/tbs.php?id=58
-#EXTINF:-1 group-title="灣灣,#genre#",TVBS HD
-http://meimei.kandiantv.cn/taitai/tbs.php?id=95
-#EXTINF:-1 group-title="灣灣,#genre#",TVBS新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=54
-#EXTINF:-1 group-title="灣灣,#genre#",寰宇新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=63
-#EXTINF:-1 group-title="灣灣,#genre#",年代新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=61
-#EXTINF:-1 group-title="灣灣,#genre#",中天新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=53
-#EXTINF:-1 group-title="灣灣,#genre#",東森新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=55
-#EXTINF:-1 group-title="灣灣,#genre#",三立新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=57
-#EXTINF:-1 group-title="灣灣,#genre#",中視新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=60
-#EXTINF:-1 group-title="灣灣,#genre#",民視新聞
-http://meimei.kandiantv.cn/taitai/tbs.php?id=59
-#EXTINF:-1 group-title="灣灣,#genre#",民視台灣
-http://meimei.kandiantv.cn/taitai/tbs.php?id=99
-#EXTINF:-1 group-title="灣灣,#genre#",民視第一
-http://meimei.kandiantv.cn/taitai/tbs.php?id=100
-#EXTINF:-1 group-title="灣灣,#genre#",龍華戲劇
-http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
-#EXTINF:-1 group-title="灣灣,#genre#",龍華日韓
-http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
-#EXTINF:-1 group-title="灣灣,#genre#",龍華偶像
-http://59.125.98.83:8536/http/192.168.1.9:8066/hls/210/10012/cstv12.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
-#EXTINF:-1 group-title="灣灣,#genre#",动物星球
-http://50.7.220.74:8278/animalplanet_twn/playlist.m3u8?tid=m4da2c053371613331372&ct=17874&tsum=4481f502bb91c2c67964feecfbc4b702
-#EXTINF:-1 group-title="灣灣,#genre#",动物星球
-http://50.7.220.74:8278/animalplanet_twn/playlist.m3u8?tid=MABA3681856636818566&ct=18393&tsum=2066d4c793195f8449577d35af941288
-#EXTINF:-1 group-title="數字,#genre#",Y+劇場
-http://117.148.179.146/PLTV/88888888/224/3221230226/index.m3u8?icpid=88888888&from=8&hms_devid=284,144&prioritypopid=8&online=1638240466
-#EXTINF:-1 group-title="數字,#genre#",峨嵋电影
-http://113.50.66.47:8104/live.rxip.sc96655.com/live/emdygqH265_4000.m3u8
-#EXTINF:-1 group-title="數字,#genre#",OHD电影
-http://182.151.211.171:808/hls/58/index.m3u8
-#EXTINF:-1 group-title="數字,#genre#",4K超高清
-http://113.50.66.47:8104/live.rxip.sc96655.com/live/emdy4k_8000.m3u8
-#EXTINF:-1 group-title="數字,#genre#",IPTV 4K
-http://39.134.134.85/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBO3%2B2%2FLci77HWE%2FMDUdCEgEA%3D%3D%3A20211105223205%2C10000100000000050000000003887500%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",TVBS新聞HD
-rtmp://219.80.97.25/sat/tv551?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",東森財經HD
-rtmp://219.80.97.25/sat/tv571?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",東森超視HD
-rtmp://219.80.97.25/sat/tv331?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",中視HD
-rtmp://219.80.97.25/sat/tv091?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",台視HD
-rtmp://219.80.97.25/sat/tv071?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",民視HD
-rtmp://219.80.97.25/sat/tv051?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",華視HD
-rtmp://219.80.97.25/sat/tv111?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",TVBS歡樂HD
-rtmp://219.80.97.25/sat/tv421?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",緯來日本HD
-rtmp://219.80.97.25/sat/tv771?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",緯來育樂HD
-rtmp://219.80.97.25/sat/tv701?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",緯來體育HD
-rtmp://219.80.97.25/sat/tv721?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",ELEVEN 1HD
-rtmp://219.80.97.25/sat/tv731?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",ELEVEN 2HD
-rtmp://219.80.97.25/sat/tv741?$720P高清
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",港台31
-http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/13
-#EXTINF:-1 group-title="星空卫视, http://120.84.96.32:808/hls/79/index.m3u8",港台32
-http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/14
+TVB J2,http://meimei.kandiantv.cn/taitai/tbs.php?id=12 
+TVB J2,http://120.84.96.29:808/hls/86/index.m3u8 
+無線新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=9 
+無線財經,http://meimei.kandiantv.cn/taitai/tbs.php?id=10 
+有線新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=24 
+有線財經,http://meimei.kandiantv.cn/taitai/tbs.php?id=28 
+有線体育,http://meimei.kandiantv.cn/taitai/tbs.php?id=27 
+赛马18台,http://meimei.kandiantv.cn/taitai/tbs.php?id=25 
+赛马603,http://meimei.kandiantv.cn/taitai/tbs.php?id=26 
+Now新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=16 
+Now财经,http://meimei.kandiantv.cn/taitai/tbs.php?id=17 
+開电视,http://meimei.kandiantv.cn/taitai/tbs.php?id=7 
+Viu TV,http://meimei.kandiantv.cn/taitai/tbs.php?id=8 
+RTHK31,http://meimei.kandiantv.cn/taitai/tbs.php?id=20 
+RTHK32,http://meimei.kandiantv.cn/taitai/tbs.php?id=21 
+中視 HD ,http://meimei.kandiantv.cn/taitai/tbs.php?id=82 
+華視 HD ,http://meimei.kandiantv.cn/taitai/tbs.php?id=86 
+民視 HD ,http://meimei.kandiantv.cn/taitai/tbs.php?id=84 
+台視 HD ,http://meimei.kandiantv.cn/taitai/tbs.php?id=83 
+壹新闻,http://meimei.kandiantv.cn/taitai/tbs.php?id=58 
+TVBS HD,http://meimei.kandiantv.cn/taitai/tbs.php?id=95 
+TVBS新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=54 
+寰宇新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=63 
+年代新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=61 
+中天新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=53 
+東森新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=55 
+三立新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=57 
+中視新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=60 
+民視新聞,http://meimei.kandiantv.cn/taitai/tbs.php?id=59 
+民視台灣,http://meimei.kandiantv.cn/taitai/tbs.php?id=99 
+民視第一,http://meimei.kandiantv.cn/taitai/tbs.php?id=100 
+龍華戲劇,http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d 
+龍華日韓,http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d 
+龍華偶像,http://59.125.98.83:8536/http/192.168.1.9:8066/hls/210/10012/cstv12.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d 
+动物星球,http://50.7.220.74:8278/animalplanet_twn/playlist.m3u8?tid=m4da2c053371613331372&ct=17874&tsum=4481f502bb91c2c67964feecfbc4b702 
+动物星球,http://50.7.220.74:8278/animalplanet_twn/playlist.m3u8?tid=MABA3681856636818566&ct=18393&tsum=2066d4c793195f8449577d35af941288 
+Y+劇場,http://117.148.179.146/PLTV/88888888/224/3221230226/index.m3u8?icpid=88888888&from=8&hms_devid=284,144&prioritypopid=8&online=1638240466 
+峨嵋电影,http://113.50.66.47:8104/live.rxip.sc96655.com/live/emdygqH265_4000.m3u8 
+OHD电影,http://182.151.211.171:808/hls/58/index.m3u8 
+4K超高清,http://113.50.66.47:8104/live.rxip.sc96655.com/live/emdy4k_8000.m3u8 
+IPTV 4K,http://39.134.134.85/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBO3%2B2%2FLci77HWE%2FMDUdCEgEA%3D%3D%3A20211105223205%2C10000100000000050000000003887500%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND
+龙祥时代, http://120.84.96.32:808/hls/35/index.m3u8
+龙祥时代, http://120.84.96.25:808/hls/35/index.m3u8
+龙翔时代, http://120.84.96.33:808/hls/35/index.m3u8
+东森电影, http://120.84.96.25:808/hls/32/index.m3u8
+东森电影, http://120.84.96.32:808/hls/32/index.m3u8
+东森洋片, http://120.84.96.32:808/hls/33/index.m3u8
+东森洋片, http://120.84.96.25:808/hls/33/index.m3u8
+J2, https://aaaaa.pejian.com:443/xgj2/xgj2app.m3u8
+J2, http://120.84.96.29:808/hls/86/index.m3u8
+有线603, http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/11
+18台, http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/12
+港台31, http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/13
+港台32, http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/14
+凤凰电影, http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
+凤凰卫视, http://117.169.120.138:8080/live/fhchinese/.m3u8
+松视1台, http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/477
+松视3台, http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/479
+新加坡国际, https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+星空卫视, http://120.84.96.25:808/hls/79/index.m3u8
+星空卫视, http://120.84.96.32:808/hls/79/index.m3u8
+TVBS新聞HD,rtmp://219.80.97.25/sat/tv551?$720P高清
+東森財經HD,rtmp://219.80.97.25/sat/tv571?$720P高清
+東森超視HD,rtmp://219.80.97.25/sat/tv331?$720P高清
+中視HD,rtmp://219.80.97.25/sat/tv091?$720P高清
+台視HD,rtmp://219.80.97.25/sat/tv071?$720P高清
+民視HD,rtmp://219.80.97.25/sat/tv051?$720P高清
+華視HD,rtmp://219.80.97.25/sat/tv111?$720P高清
+TVBS歡樂HD,rtmp://219.80.97.25/sat/tv421?$720P高清
+緯來日本HD,rtmp://219.80.97.25/sat/tv771?$720P高清
+緯來育樂HD,rtmp://219.80.97.25/sat/tv701?$720P高清
+緯來體育HD,rtmp://219.80.97.25/sat/tv721?$720P高清
+ELEVEN 1HD,rtmp://219.80.97.25/sat/tv731?$720P高清
+ELEVEN 2HD,rtmp://219.80.97.25/sat/tv741?$720P高清
