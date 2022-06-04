@@ -1,6 +1,7 @@
 #EXTINF:-1 group-title="未分组",TVB J2
 http://meimei.kandiantv.cn/taitai/tbs.php?id=12 
-#http://120.84.96.29:808/hls/86/index.m3u8 
+#EXTINF:-1 group-title="未分组",TVB J2
+http://120.84.96.29:808/hls/86/index.m3u8 
 #EXTINF:-1 group-title="未分组",無線新聞
 http://meimei.kandiantv.cn/taitai/tbs.php?id=9 
 #EXTINF:-1 group-title="未分组",無線財經
