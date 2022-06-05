@@ -51,10 +51,6 @@ http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/14
 http://111.59.189.40:8445/tsfile/live/1022_1.m3u8
 #EXTINF:-1 group-title="未分组",凤凰卫视
 http://117.169.120.138:8080/live/fhchinese/.m3u8
-#EXTINF:-1 group-title="未分组",松视1台
-http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/477
-#EXTINF:-1 group-title="未分组",松视3台
-http://hk.crtv.store:80/h9LfGk6jVB/WXcrtv2020/479
 #EXTINF:-1 group-title="未分组",新加坡国际
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 #EXTINF:-1 group-title="未分组",星空卫视
