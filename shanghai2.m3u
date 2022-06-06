@@ -1,10 +1,5 @@
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/dongfang.png" group-title="上海2",东方卫视
-http://39.135.49.209:6610/PLTV/88888888/224/3221227059/1.m3u8?servicetype=1
-#EXTINF:-1  tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="上海2",东方卫视
-http://117.148.179.160/TVOD/88888888/224/3221231738/index.m3u8
-#EXTINF:-1  tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="上海2",东方卫视
-http://117.148.179.167/TVOD/88888888/224/3221231450/index.m3u8
-
+http://39.135.55.105:6610/PLTV/88888888/224/3221225828/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-id="1963" tvg-name="新视觉" tvg-logo="http://n.ysyz.top:99/buyaolian/xsj.png" group-title="上海2",新视觉
 http://shbu.live.bestvcdn.com.cn:8080/live/program/live/xsjhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="1976" tvg-name="全纪实" tvg-logo="http://n.ysyz.top:99/buyaolian/qjs.png" group-title="上海2",全纪实
