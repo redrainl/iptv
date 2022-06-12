@@ -72,3 +72,13 @@ http://xx.xx.xx:9500/live.m3u8?c=38
 http://xx.xx.xx:9500/live.m3u8?c=39
 #EXTINF:-1 group-title="Youtube",NASA Live Stream 2
 http://xx.xx.xx:9500/live.m3u8?c=40
+#EXTINF:-1, ABC News Australia 
+http://xx.xx.xx:9500/live.m3u8?c=41
+#EXTINF:-1,MBC News
+http://xx.xx.xx:9500/live.m3u8?c=42
+#EXTINF:-1,test_bbc
+http://xx.xx.xx:9500/live.m3u8?c=44
+#EXTINF:-1,亚洲旅游台
+http://xx.xx.xx:9500/live.m3u8?c=45
+#EXTINF:-1,靖天电视台
+http://xx.xx.xx:9500/live.m3u8?c=46
