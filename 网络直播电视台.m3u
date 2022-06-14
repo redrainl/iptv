@@ -108,7 +108,8 @@ https://cdn.hklive.tv/raw/33.ts
 #EXTINF:-1 tvg-id="" tvg-name="香港開電視" tvg-logo="https://www.hkdtmb.com/png_logo/77.png" group-title="香港",香港開電視
 https://cdn.hklive.tv/raw/77.ts
 #EXTINF:-1 tvg-id="" tvg-name="香港國際財經台" tvg-logo="https://www.hkdtmb.com/png_logo/76.png" group-title="香港",香港國際財經台
-https://cdn.hklive.tv/raw/76.ts#EXTINF:-1 tvg-id="" tvg-name="翡翠台" tvg-logo="https://www.hkdtmb.com/png_logo/81.png" group-title="香港",翡翠台
+https://cdn.hklive.tv/raw/76.ts
+#EXTINF:-1 tvg-id="" tvg-name="翡翠台" tvg-logo="https://www.hkdtmb.com/png_logo/81.png" group-title="香港",翡翠台
 https://cdn.hklive.tv/raw/81.ts
 #EXTINF:-1 tvg-id="" tvg-name="翡翠台 (中英字幕)" tvg-logo="https://www.hkdtmb.com/png_logo/81.png" group-title="香港",翡翠台 (中英字幕)
 https://cdn.hklive.tv/raw/81b.ts
