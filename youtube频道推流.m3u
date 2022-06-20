@@ -82,3 +82,12 @@ http://xx.xx.xx:9500/live.m3u8?c=44
 http://xx.xx.xx:9500/live.m3u8?c=45
 #EXTINF:-1,靖天电视台
 http://xx.xx.xx:9500/live.m3u8?c=46
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="youtube",Relaxing Jazz & Sweet Bossa Nova for Calm at Home
+http://xx.xx.xx.xx:9500/live.m3u8?c=47
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="youtube",Slow Jazz Music
+http://xx.xx.xx.xx:9500/live.m3u8?c=48
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="youtube",Chill Out Lounge Jazz Music Radio
+http://xx.xx.xx.xx:9500/live.m3u8?c=49
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="youtube",Bossa Nova Covers Of Popular Songs
+http://xx.xx.xx.xx:9500/live.m3u8?c=50
+
