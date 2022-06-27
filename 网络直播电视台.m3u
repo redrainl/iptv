@@ -141,6 +141,9 @@ http://59.125.98.83:8536/http/192.168.1.9:8066/hls/210/10012/cstv12.m3u8?token=7
 http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
 #EXTINF:-1 group-title="台湾",龙华戏剧
 http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+#EXTINF:-1 group-title="台湾",东森美洲
+https://epg.pm/stream/bc697051888271f8a5752ad777ff21e4232b22974256ad7ecb90f508f3f9b51c.m3u8
+
 
 
 
