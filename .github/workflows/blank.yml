@@ -35,4 +35,5 @@ jobs:
           script: |
             #cd /home/fming/mysite/
             #python manage.py migrate
+            \cp -f  /livetvdata/html/git/mylist.m3u /livetvdata/html/mylist.m3u
             docker restart livetv
