@@ -135,6 +135,12 @@ https://live.hkanime.com.hk/xxxx/99/index.m3u8
 https://live.hkanime.com.hk/xxxx/96/index.m3u8
 #EXTINF:-1 tvg-id="96" tvg-name="ViuTV" tvg-logo="https://live.hkanime.com.hk/png_logo/96.png" group-title="香港",ViuTV Six （>第二声度）
 https://live.hkanime.com.hk/xxxx/96b/index.m3u8
+#EXTINF:-1 group-title="台湾",龙华偶像
+http://59.125.98.83:8536/http/192.168.1.9:8066/hls/210/10012/cstv12.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+#EXTINF:-1 group-title="台湾",龙华日韩
+http://59.125.98.83:8535/http/192.168.1.9:8066/hls/210/10011/cstv11.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
+#EXTINF:-1 group-title="台湾",龙华戏剧
+http://59.125.98.83:8534/http/192.168.1.9:8066/hls/210/10010/cstv10.m3u8?token=7375646f1298469fcd2cecf4cc31d29c6f203f0d
 
 
 
