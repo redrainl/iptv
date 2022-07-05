@@ -210,6 +210,8 @@ http://livetv.dnsfor.me:80/channel.5.m3u8
 http://livetv.dnsfor.me:80/channel.6.m3u8
 #EXTINF:-1 group-title="香港",翡翠
 https://epg.pm/stream/a95afa9eccf6002d2ae4f796d45c9a1d522c7de95db668f16cc75b76adc7a96d.m3u8
+#EXTINF:-1 group-title="香港",翡翠
+http://qwas.eatuo.com:9901/tsfile/live/1013_1.m3u8?zgangd
 #EXTINF:-1 group-title="香港",凤凰卫视
 https://epg.pm/stream/245db130ce97e7c2d048941a8b9ace848dd782f9fbadc2bddd031d4a7298b6d6.m3u8
 #EXTINF:-1 group-title="香港",test
