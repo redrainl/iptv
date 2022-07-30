@@ -156,9 +156,9 @@ http://tv.redrainl.site:9500/live.m3u8?c=15
 http://tv.redrainl.site:9500/live.m3u8?c=16
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="英语",English words for everyda
 http://tv.redrainl.site:9500/live.m3u8?c=17
-#EXTINF:-1 tvg-id="7186" tvg-name="ELTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eltv.png" group-title="4GTV",ELTV生活英语台
+#EXTINF:-1 tvg-id="7186" tvg-name="ELTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eltv.png" group-title="英语",ELTV生活英语台
 http://for40255.sytes.net:8099/tv/iptv/live_4gtv.php?vid=litv-longturn20&nid=106
-#EXTINF:-1 tvg-id="7100" tvg-name="ABCAustralia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/abcaus.png" group-title="4GTV",LiveABC互动英语
+#EXTINF:-1 tvg-id="7100" tvg-name="ABCAustralia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/abcaus.png" group-title="英语",LiveABC互动英语
 http://for40255.sytes.net:8099/tv/iptv/live_4gtv.php?vid=4gtv-live030&nid=188
 
 #EXTINF:-1 group-title="香港",凤凰新闻
