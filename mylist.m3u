@@ -103,7 +103,7 @@ rtmp://59.124.75.138/sat/tv421
 #EXTINF:-1  tvg-name="TVBS国际"  group-title="台湾",TVBS国际
 https://git.io/JgYl2
 #EXTINF:-1  tvg-name="TVBS-Asia"  group-title="台湾",TVBS-Asia
-TVBS-Asia,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="台湾",民视新闻
 http://tv.redrainl.site:9500/live.m3u8?c=1
@@ -728,12 +728,17 @@ https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_
 #EXTINF:-1 tvg-logo="https://s1.ax1x.com/2022/04/14/L1GDP0.png" group-title="影视综艺记录",FashionBox FHD
 https://fashionbox-localnow.cinedigm.com/playlist.m3u8
 
-##Music##
-中廣音樂網,http://stream.rcs.revma.com/ks4vsmg3qtzuv
-中廣新聞網,http://stream.rcs.revma.com/78fm9wyy2tzuv
-中廣流行網,http://stream.rcs.revma.com/aw9uqyxy2tzuv
-News98新聞臺,http://stream.rcs.revma.com/55tyxsy4qtzuv
-News98新聞臺,http://n08.rcs.revma.com/55tyxsy4qtzuv?rj-ttl=5&rj-tok=AAABexIiGVkA-wjPtoygVgeNGQ
-飛碟電臺,http://stream.rcs.revma.com/em90w4aeewzuv
-古典音樂臺,http://play.redefine.ltd/Stream2/FM1058-2.m3u8
-天籟古典,http://stream3.hndt.com/now/MdOpB4zP/playlist.m3u8
+#EXTINF:-1  group-title="广播",中广音乐网
+http://stream.rcs.revma.com/ks4vsmg3qtzuv
+#EXTINF:-1  group-title="广播",中广新闻网
+http://stream.rcs.revma.com/78fm9wyy2tzuv
+#EXTINF:-1  group-title="广播",中广流行网
+http://stream.rcs.revma.com/aw9uqyxy2tzuv
+#EXTINF:-1  group-title="广播",NEWS98
+http://stream.rcs.revma.com/55tyxsy4qtzuv
+#EXTINF:-1  group-title="广播",飞碟电台
+http://stream.rcs.revma.com/em90w4aeewzuv
+#EXTINF:-1  group-title="广播",古典音乐台
+http://play.redefine.ltd/Stream2/FM1058-2.m3u8
+#EXTINF:-1  group-title="广播",天籁古典
+http://stream3.hndt.com/now/MdOpB4zP/playlist.m3u8
