@@ -761,7 +761,6 @@ http://play.redefine.ltd/Stream2/FM1058-2.m3u8
 #EXTINF:-1  group-title="广播",天籁古典
 http://stream3.hndt.com/now/MdOpB4zP/playlist.m3u8
 
-#EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-chno="4" tvg-id="4gtv-4gtv003" tvg-name="民视第一台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv003.jpg" group-title="4Gtv-jms",民视第一台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv003&hd=720
 #EXTINF:-1 tvg-chno="5" tvg-id="4gtv-4gtv001" tvg-name="民视台湾台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv001.jpg" group-title="4Gtv-jms",民视台湾台
@@ -784,7 +783,7 @@ https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv043&hd=720
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv039&hd=720
 #EXTINF:-1 tvg-chno="16" tvg-id="4gtv-4gtv064" tvg-name="中视菁采台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv064.jpg" group-title="4Gtv-jms",中视菁采台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv064&hd=720
-#EXTINF:-1 tvg-chno="17" tvg-id="4gtv-live086" tvg-name="TVBS精采台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live086.jpg" group-title="综合,戏剧、电影与纪录片",TVBS精采台
+#EXTINF:-1 tvg-chno="17" tvg-id="4gtv-live086" tvg-name="TVBS精采台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live086.jpg" group-title="4Gtv-jms",TVBS精采台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live086&hd=720
 #EXTINF:-1 tvg-chno="18" tvg-id="4gtv-4gtv070" tvg-name="爱尔达娱乐台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv070.jpg" group-title="4Gtv-jms",爱尔达娱乐台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv070&hd=720
@@ -922,51 +921,51 @@ https://4g.52sf.ga/channel.m3u8?fid=4gtv-live121&hd=720
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live122&hd=720
 #EXTINF:-1 tvg-chno="123" tvg-id="4gtv-live123" tvg-name="中天美食旅游" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live123.jpg" group-title="4Gtv-jms",中天美食旅游
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live123&hd=720
-#EXTINF:-1 tvg-chno="125" tvg-id="4gtv-4gtv042" tvg-name="公视戏剧" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv042.jpg" group-title="戏剧、电影与纪录片",公视戏剧
+#EXTINF:-1 tvg-chno="125" tvg-id="4gtv-4gtv042" tvg-name="公视戏剧" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv042.jpg" group-title="4Gtv-jms",公视戏剧
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv042&hd=720
-#EXTINF:-1 tvg-chno="126" tvg-id="litv-ftv09" tvg-name="民视影剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-ftv09.jpg" group-title="戏剧、电影与纪录片",民视影剧台
+#EXTINF:-1 tvg-chno="126" tvg-id="litv-ftv09" tvg-name="民视影剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-ftv09.jpg" group-title="4Gtv-jms",民视影剧台
 https://4g.52sf.ga/channel.m3u8?fid=litv-ftv09&hd=720
-#EXTINF:-1 tvg-chno="127" tvg-id="litv-longturn18" tvg-name="龙华戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn18.jpg" group-title="戏剧、电影与纪录片",龙华戏剧台
+#EXTINF:-1 tvg-chno="127" tvg-id="litv-longturn18" tvg-name="龙华戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn18.jpg" group-title="4Gtv-jms",龙华戏剧台
 https://4g.52sf.ga/channel.m3u8?fid=litv-longturn18&hd=720
-#EXTINF:-1 tvg-chno="128" tvg-id="4gtv-live620" tvg-name="HITS频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live620.jpg" group-title="戏剧、电影与纪录片",HITS频道
+#EXTINF:-1 tvg-chno="128" tvg-id="4gtv-live620" tvg-name="HITS频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live620.jpg" group-title="4Gtv-jms",HITS频道
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live620&hd=720
-#EXTINF:-1 tvg-chno="129" tvg-id="litv-longturn11" tvg-name="龙华日韩台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn11.jpg" group-title="戏剧、电影与纪录片",龙华日韩台
+#EXTINF:-1 tvg-chno="129" tvg-id="litv-longturn11" tvg-name="龙华日韩台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn11.jpg" group-title="4Gtv-jms",龙华日韩台
 https://4g.52sf.ga/channel.m3u8?fid=litv-longturn11&hd=720
-#EXTINF:-1 tvg-chno="130" tvg-id="4gtv-4gtv034" tvg-name="八大精彩台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv034.jpg" group-title="戏剧、电影与纪录片",八大精彩台
+#EXTINF:-1 tvg-chno="130" tvg-id="4gtv-4gtv034" tvg-name="八大精彩台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv034.jpg" group-title="4Gtv-jms",八大精彩台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv034&hd=720
-#EXTINF:-1 tvg-chno="132" tvg-id="4gtv-4gtv058" tvg-name="靖天戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv058.jpg" group-title="戏剧、电影与纪录片",靖天戏剧台
+#EXTINF:-1 tvg-chno="132" tvg-id="4gtv-4gtv058" tvg-name="靖天戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv058.jpg" group-title="4Gtv-jms",靖天戏剧台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv058&hd=720
-#EXTINF:-1 tvg-chno="133" tvg-id="4gtv-4gtv045" tvg-name="靖洋戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv045.jpg" group-title="戏剧、电影与纪录片",靖洋戏剧台
+#EXTINF:-1 tvg-chno="133" tvg-id="4gtv-4gtv045" tvg-name="靖洋戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv045.jpg" group-title="4Gtv-jms",靖洋戏剧台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv045&hd=720
 #EXTINF:-1 tvg-chno="134" tvg-id="4gtv-live027" tvg-name="CI 罪案侦查频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live027.jpg" group-title="4Gtv-jms",CI 罪案侦查频道
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live027&hd=720
-#EXTINF:-1 tvg-chno="135" tvg-id="4gtv-4gtv013" tvg-name="视纳华仁纪实频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv013.jpg" group-title="戏剧、电影与纪录片",视纳华仁纪实频道
+#EXTINF:-1 tvg-chno="135" tvg-id="4gtv-4gtv013" tvg-name="视纳华仁纪实频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv013.jpg" group-title="4Gtv-jms",视纳华仁纪实频道
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv013&hd=720
-#EXTINF:-1 tvg-chno="136" tvg-id="4gtv-live023" tvg-name="影迷数位纪实台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live023.jpg" group-title="戏剧、电影与纪录片",影迷数位纪实台
+#EXTINF:-1 tvg-chno="136" tvg-id="4gtv-live023" tvg-name="影迷数位纪实台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live023.jpg" group-title="4Gtv-jms",影迷数位纪实台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live023&hd=720
-#EXTINF:-1 tvg-chno="137" tvg-id="4gtv-live144" tvg-name="金光布袋戏" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live144.jpg" group-title="戏剧、电影与纪录片",金光布袋戏
+#EXTINF:-1 tvg-chno="137" tvg-id="4gtv-live144" tvg-name="金光布袋戏" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live144.jpg" group-title="4Gtv-jms",金光布袋戏
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live144&hd=720
 #EXTINF:-1 tvg-chno="138" tvg-id="4gtv-live138" tvg-name="ROCK Extreme" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live138.jpg" group-title="4Gtv-jms",ROCK Extreme
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live138&hd=720
-#EXTINF:-1 tvg-chno="145" tvg-id="4gtv-4gtv049" tvg-name="采昌影剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv049.jpg" group-title="戏剧、电影与纪录片",采昌影剧台
+#EXTINF:-1 tvg-chno="145" tvg-id="4gtv-4gtv049" tvg-name="采昌影剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv049.jpg" group-title="4Gtv-jms",采昌影剧台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv049&hd=720
-#EXTINF:-1 tvg-chno="146" tvg-id="4gtv-4gtv055" tvg-name="靖天映画" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv055.jpg" group-title="戏剧、电影与纪录片",靖天映画
+#EXTINF:-1 tvg-chno="146" tvg-id="4gtv-4gtv055" tvg-name="靖天映画" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv055.jpg" group-title="4Gtv-jms",靖天映画
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv055&hd=720
-#EXTINF:-1 tvg-chno="147" tvg-id="4gtv-4gtv061" tvg-name="靖天电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv061.jpg" group-title="戏剧、电影与纪录片",靖天电影台
+#EXTINF:-1 tvg-chno="147" tvg-id="4gtv-4gtv061" tvg-name="靖天电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv061.jpg" group-title="4Gtv-jms",靖天电影台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv061&hd=720
-#EXTINF:-1 tvg-chno="148" tvg-id="litv-longturn03" tvg-name="龙华电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn03.jpg" group-title="戏剧、电影与纪录片",龙华电影台
+#EXTINF:-1 tvg-chno="148" tvg-id="litv-longturn03" tvg-name="龙华电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn03.jpg" group-title="4Gtv-jms",龙华电影台
 https://4g.52sf.ga/channel.m3u8?fid=litv-longturn03&hd=720
-#EXTINF:-1 tvg-chno="152" tvg-id="4gtv-4gtv011" tvg-name="影迷数位电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv011.jpg" group-title="戏剧、电影与纪录片",影迷数位电影台
+#EXTINF:-1 tvg-chno="152" tvg-id="4gtv-4gtv011" tvg-name="影迷数位电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv011.jpg" group-title="4Gtv-jms",影迷数位电影台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv011&hd=720
-#EXTINF:-1 tvg-chno="153" tvg-id="4gtv-4gtv017" tvg-name="amc最爱电影" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv017.jpg" group-title="戏剧、电影与纪录片",amc最爱电影
+#EXTINF:-1 tvg-chno="153" tvg-id="4gtv-4gtv017" tvg-name="amc最爱电影" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv017.jpg" group-title="4Gtv-jms",amc最爱电影
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv017&hd=720
-#EXTINF:-1 tvg-chno="154" tvg-id="4gtv-live069" tvg-name="CinemaWorld" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live069.jpg" group-title="戏剧、电影与纪录片",CinemaWorld
+#EXTINF:-1 tvg-chno="154" tvg-id="4gtv-live069" tvg-name="CinemaWorld" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live069.jpg" group-title="4Gtv-jms",CinemaWorld
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live069&hd=720
-#EXTINF:-1 tvg-chno="155" tvg-id="4gtv-live155" tvg-name="CATCHPLAY Beyond" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live155.jpg" group-title="戏剧、电影与纪录片",CATCHPLAY Beyond
+#EXTINF:-1 tvg-chno="155" tvg-id="4gtv-live155" tvg-name="CATCHPLAY Beyond" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live155.jpg" group-title="4Gtv-jms",CATCHPLAY Beyond
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live155&hd=720
-#EXTINF:-1 tvg-chno="156" tvg-id="4gtv-4gtv076" tvg-name="CATCHPLAY电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv076.jpg" group-title="戏剧、电影与纪录片",CATCHPLAY电影台
+#EXTINF:-1 tvg-chno="156" tvg-id="4gtv-4gtv076" tvg-name="CATCHPLAY电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv076.jpg" group-title="4Gtv-jms",CATCHPLAY电影台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv076&hd=720
-#EXTINF:-1 tvg-chno="157" tvg-id="4gtv-live157" tvg-name="My Cinema Europe HD 我的欧洲电影" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live157.jpg" group-title="戏剧、电影与纪录片",My Cinema Europe HD 我的欧洲电影
+#EXTINF:-1 tvg-chno="157" tvg-id="4gtv-live157" tvg-name="My Cinema Europe HD 我的欧洲电影" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live157.jpg" group-title="4Gtv-jms",My Cinema Europe HD 我的欧洲电影
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live157&hd=720
 #EXTINF:-1 tvg-chno="160" tvg-id="litv-ftv17" tvg-name="好消息2台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-ftv17.jpg" group-title="4Gtv-jms",好消息2台
 https://4g.52sf.ga/channel.m3u8?fid=litv-ftv17&hd=720
@@ -992,14 +991,15 @@ https://4g.52sf.ga/channel.m3u8?fid=4gtv-live204&hd=720
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv084&hd=720
 #EXTINF:-1 tvg-chno="186" tvg-id="4gtv-4gtv085" tvg-name="国会频道2" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv085.jpg" group-title="4Gtv-jms",国会频道2
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-4gtv085&hd=720
-#EXTINF:-1 tvg-chno="201" tvg-id="4gtv-live021" tvg-name="经典电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live021.jpg" group-title="戏剧、电影与纪录片",经典电影台
+#EXTINF:-1 tvg-chno="201" tvg-id="4gtv-live021" tvg-name="经典电影台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live021.jpg" group-title="4Gtv-jms",经典电影台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live021&hd=720
 #EXTINF:-1 tvg-chno="202" tvg-id="4gtv-live022" tvg-name="经典卡通台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live022.jpg" group-title="4Gtv-jms",经典卡通台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live022&hd=720
 #EXTINF:-1 tvg-chno="204" tvg-id="4gtv-live024" tvg-name="精选动漫台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live024.jpg" group-title="4Gtv-jms",精选动漫台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live024&hd=720
-#EXTINF:-1 tvg-chno="205" tvg-id="4gtv-live005" tvg-name="华语戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live005.jpg" group-title="戏剧、电影与纪录片",华语戏剧台
+#EXTINF:-1 tvg-chno="205" tvg-id="4gtv-live005" tvg-name="华语戏剧台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live005.jpg" group-title="4Gtv-jms",华语戏剧台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live005&hd=720
 #EXTINF:-1 tvg-chno="206" tvg-id="4gtv-live006" tvg-name="华语综艺台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live006.jpg" group-title="4Gtv-jms",华语综艺台
 https://4g.52sf.ga/channel.m3u8?fid=4gtv-live006&hd=720
+
 
