@@ -783,7 +783,7 @@ http://tv.redrainl.site:8081/channel.m3u8?fid=4gtv-4gtv043&hd=720
 http://tv.redrainl.site:8081/channel.m3u8?fid=4gtv-4gtv039&hd=720
 #EXTINF:-1 tvg-chno="4gtv-4gtv064" tvg-id="4gtv-4gtv064" tvg-name="中视菁采台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv064.jpg" group-title="4Gtv",中视菁采台
 http://tv.redrainl.site:8081/channel.m3u8?fid=4gtv-4gtv064&hd=720
-#EXTINF:-1 tvg-chno="4gtv-live086" tvg-id="4gtv-live086" tvg-name="TVBS精采台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live086.jpg" group-title="综合,戏剧、电影与纪录片",TVBS精采台
+#EXTINF:-1 tvg-chno="4gtv-live086" tvg-id="4gtv-live086" tvg-name="TVBS精采台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live086.jpg" group-title="4Gtv",TVBS精采台
 http://tv.redrainl.site:8081/channel.m3u8?fid=4gtv-live086&hd=720
 #EXTINF:-1 tvg-chno="4gtv-4gtv070" tvg-id="4gtv-4gtv070" tvg-name="爱尔达娱乐台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-4gtv070.jpg" group-title="4Gtv",爱尔达娱乐台
 http://tv.redrainl.site:8081/channel.m3u8?fid=4gtv-4gtv070&hd=720
