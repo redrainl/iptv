@@ -186,10 +186,10 @@ https://php.52sf.ga/@Curly_MouseIPTV-TVB.php?id=2
 https://php.52sf.ga/@Curly_MouseIPTV-NOW.php?id=332
 #EXTINF:-1 group-title="香港" ,now直播
 https://php.52sf.ga/@Curly_MouseIPTV-NOW.php?id=331
-#EXTINF:-1 group-title="香港",凤凰新闻
-http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
 #EXTINF:-1 group-title="香港",凤凰中文
-http://tv.redrainl.site:9500/live.m3u8?c=27
+http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
+#EXTINF:-1 group-title="香港",凤凰资讯
+http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="香港",凤凰香港v2
 http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
 #EXTINF:-1 group-title="香港",无线新闻台
