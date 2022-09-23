@@ -36,6 +36,6 @@ jobs:
             #cd /home/fming/mysite/
             #python manage.py migrate
             \cp -f  /livetvdata/html/git/mylist.m3u /livetvdata/html/mylist.m3u
-            echo $NEWDOMAIN
+            #更换自用服务器地址，不然流量实在受不了 ：（
             sed  -i "s/tv.redrainl.site:8081/${{ secrets.NEWDOMAIN_4GTV }}/" /livetvdata/html/mylist.m3u
             # docker restart livetv
