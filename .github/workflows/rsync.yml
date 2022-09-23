@@ -27,8 +27,6 @@ jobs:
           SERVER_DESTINATION: /livetvdata/html/git/ # 部署到目标文件夹
       - name: Restart server # 第三步，重启服务
         uses: appleboy/ssh-action@master
-        env:
-          NEWDOMAIN: ${{ secrets.NEWDOMAIN_4GTV }}
         with:
           host: ${{ secrets.SSH_HOST }} # 下面三个配置与上一步类似
           username: ${{ secrets.SSH_USERNAME }}
@@ -39,5 +37,5 @@ jobs:
             #python manage.py migrate
             \cp -f  /livetvdata/html/git/mylist.m3u /livetvdata/html/mylist.m3u
             echo $NEWDOMAIN
-            sed  -i "s/tv.redrainl.site:8081/$NEWDOMAIN/" /livetvdata/html/mylist.m3u
+            sed  -i "s/tv.redrainl.site:8081/${{ secrets.NEWDOMAIN_4GTV }}/" /livetvdata/html/mylist.m3u
             # docker restart livetv
