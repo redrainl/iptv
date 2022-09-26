@@ -1022,3 +1022,95 @@ http://play.redefine.ltd/Stream2/FM1058-2.m3u8
 http://stream3.hndt.com/now/MdOpB4zP/playlist.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="JMS港澳台",凤凰香港
+https://php.52sf.ga/@Curly_MouseIPTV-Phoenix.php?id=3
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="JMS港澳台",翡翠台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=1
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="JMS港澳台",J2
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=6
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB%E6%98%8E%E7%8F%A0%E5%8F%B0.png" group-title="JMS港澳台",明珠台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=7
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/commons/thumb/8/8c/Now_Business_News_logo.svg/400px-Now_Business_News_logo.svg.png group-title="JMS港澳台",NOW财经
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=8
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/commons/thumb/9/92/Now_TV_logo.svg/400px-Now_TV_logo.svg.png" group-title="JMS港澳台",NOW SPORTS PRIME
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=9
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/commons/thumb/f/f2/Now_News_logo.svg/240px-Now_News_logo.svg.png" group-title="JMS港澳台",NOW新闻
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=10
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/commons/thumb/1/1d/Now_Live_News_logo.svg/400px-Now_Live_News_logo.svg.png" group-title="JMS港澳台",NOW直播
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=11
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/commons/thumb/4/44/Radio_Television_Hong_Kong_Logo.svg/360px-Radio_Television_Hong_Kong_Logo.svg.png" group-title="JMS港澳台",RTHK31
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=13
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/commons/thumb/4/44/Radio_Television_Hong_Kong_Logo.svg/360px-Radio_Television_Hong_Kong_Logo.svg.png" group-title="JMS港澳台",RTHK32
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=14
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="JMS港澳台",ViuTV
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=17
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/tvbfinanceinformationchannel.png" group-title="JMS港澳台",无线财经
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=19
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="JMS港澳台",无线新闻
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=20
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/hongkongkai.png" group-title="JMS港澳台",香港开电视
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=23
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/thumb/f/f5/I-CABLE_Channel18.png/220px-I-CABLE_Channel18.png" group-title="JMS港澳台",有线18
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=25
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/youxiancaijingzixun.png" group-title="JMS港澳台",有线财经资讯台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=26
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/hongkong603.png" group-title="JMS港澳台",有线603
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=27
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/thumb/0/05/I-CABLE_Sports_Channel.png/220px-I-CABLE_Sports_Channel.png" group-title="JMS港澳台",有线体育
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=28
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/youxianxinwen.png" group-title="JMS港澳台",有线新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=1&id=29
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/thumb/8/87/TDM_Ou_Mun_Macau_logo.png/250px-TDM_Ou_Mun_Macau_logo.png" group-title="JMS港澳台",澳门MACAU
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=2&id=30
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/4/4e/Canal_Macau.png" group-title="JMS港澳台",澳门体育
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=2&id=31
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/4/4e/Canal_Macau.png" group-title="JMS港澳台",澳門综艺
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=2&id=32
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/thumb/9/9b/TDM_Ou_Mun.png/250px-TDM_Ou_Mun.png" group-title="JMS港澳台",澳视澳门
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=2&id=33
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/4/4e/Canal_Macau.png" group-title="JMS港澳台",澳视葡文
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=2&id=34
+#EXTINF:-1 tvg-logo="https://www.img.xz95.top/img/wikipedia/zh/thumb/c/ca/Lotus_Macau.png/220px-Lotus_Macau.png" group-title="JMS港澳台",莲花卫视
+https://php.52sf.ga/@Curly_MouseIPTV-Lotus.php
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="JMS港澳台",东森新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=43
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eata_sports1.png" group-title="JMS港澳台",爱尔达体育1
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=46
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elta_sports2.png" group-title="JMS港澳台",爱尔达体育1
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=47
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elevensports2.png" group-title="JMS港澳台",ELEVEN体育二台
+#https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=48
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ELEVENsports1.png" group-title="JMS港澳台",ELEVEN体育一台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=50
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/elevensports2.png" group-title="JMS港澳台",ELEVEN体育二台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=51
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CTS.png" group-title="JMS港澳台",华视
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=53
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E6%B0%91%E8%A7%86.png" group-title="JMS港澳台",民视
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=67
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png" group-title="JMS港澳台",三立新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=75
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86.png" group-title="JMS港澳台",台视
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=76
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="JMS港澳台",台视新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=77
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS.png" group-title="JMS港澳台",TVBS
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=78
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS%E6%AC%A2%E4%B9%90.png" group-title="JMS港澳台",TVBS欢乐台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=79
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS%E6%96%B0%E9%97%BB.png" group-title="JMS港澳台",TVBS新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=81
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandJapanese.png" group-title="JMS港澳台",纬来日本
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=82
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandSportsHD.png" group-title="JMS港澳台",纬来体育台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=83
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/VideolandMaxTV.png" group-title="JMS港澳台",纬来育乐台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=84
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NextTVNews.png" group-title="JMS港澳台",壹电视新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=86
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E4%B8%AD%E8%A7%86.png" group-title="JMS港澳台",中视
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=87
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E4%B8%AD%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="JMS港澳台",中视新闻台
+https://php.52sf.ga/@Curly_MouseIPTV-Potato.php?tid=3&id=90
+
