@@ -512,6 +512,16 @@ http://tv.redrainl.site:8081/channel2.m3u8?fid=4gtv-live030&hd=1080
 http://tv.redrainl.site:8081/channel2.m3u8?fid=litv-longturn20&hd=1080
 
 
+#EXTINF:-1 group-title="香港",凤凰资讯1
+http://vl15191373.imwork.net:8880/udp/239.93.0.118:2191
+#EXTINF:-1 group-title="香港",凤凰资讯2
+http://vl15191373.imwork.net:8880/udp/239.93.1.4:2191
+#EXTINF:-1 group-title="香港",凤凰中文1
+http://vl15191373.imwork.net:8880/udp/239.93.0.162:2192
+#EXTINF:-1 group-title="香港",凤凰中文2
+http://vl15191373.imwork.net:8880/udp/239.93.1.55:8302
+#EXTINF:-1 group-title="香港",凤凰中文3
+http://vl15191373.imwork.net:8880/udp/239.93.1.9:2192
 
 #EXTINF:-1 group-title="香港",凤凰中文
 http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
