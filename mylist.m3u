@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,http://epg.pm/epg.xml,http://tv.redrainl.site:88/4gtvepg.xml"
+#EXTM3U x-tvg-url="http://tv.redrainl.site:88/4gtvepg.xml,http://epg.51zmt.top:8000/e.xml,http://epg.pm/epg.xml"
 
 #EXTINF:-1 group-title="央视卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png",CCTV4K
 https://p.ggiptv.com/v/4k.m3u8
