@@ -161,6 +161,8 @@ http://tv.redrainl.site:9500/live.m3u8?c=3
 http://tv.redrainl.site:9500/live.m3u8?c=4
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="台湾",东森新闻
 http://tv.redrainl.site:9500/live.m3u8?c=5
+#EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png" group-title="台湾",台视新闻
+http://tv.redrainl.site:9500/live.m3u8?c=11
 #EXTINF:-1 tvg-id="6072" tvg-name="三立新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png" group-title="台湾",三立新闻
 http://tv.redrainl.site:9500/live.m3u8?c=6
 #EXTINF:-1 tvg-id="6171" tvg-name="寰宇新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/GlobalNews.png" group-title="台湾",寰宇新闻
@@ -174,7 +176,7 @@ http://tv.redrainl.site:9500/live.m3u8?c=45
 #EXTINF:-1  group-title="台湾",靖天电视台
 http://tv.redrainl.site:9500/live.m3u8?c=46
 
-#EXTINF:-1 group-title="台湾",Others
+#EXTINF:-1 group-title="台湾",---Others---
 http://test
 #EXTINF:-1  tvg-name="TVBS欢乐台"  group-title="台湾",TVBS欢乐台
 rtmp://59.124.75.138/sat/tv421
@@ -484,8 +486,6 @@ https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-id="7100" tvg-name="ABCAustralia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/abcaus.png" group-title="欧美日",ABC News(au)
 http://tv.redrainl.site:9500/live.m3u8?c=10
-#EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png" group-title="台湾",台视新闻
-http://tv.redrainl.site:9500/live.m3u8?c=11
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="欧美日",France24
 http://tv.redrainl.site:9500/live.m3u8?c=13
 #EXTINF:-1 tvg-id="6140" tvg-name="BloombergTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png" group-title="欧美日",Bloomberg
