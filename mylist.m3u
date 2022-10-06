@@ -150,14 +150,6 @@ http://shbu.live.bestvcdn.com.cn:8080/live/program/live/hdnba7/4000000/mnf.m3u8
 
 
 
-#EXTINF:-1  tvg-name="TVBS欢乐台"  group-title="台湾",TVBS欢乐台
-rtmp://59.124.75.138/sat/tv421
-#EXTINF:-1  tvg-name="TVBS国际"  group-title="台湾",TVBS国际
-https://git.io/JgYl2
-#EXTINF:-1  tvg-name="TVBS-Asia"  group-title="台湾",TVBS-Asia
-http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-
-
 
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="台湾",民视新闻
 http://tv.redrainl.site:9500/live.m3u8?c=1
@@ -175,18 +167,23 @@ http://tv.redrainl.site:9500/live.m3u8?c=6
 http://tv.redrainl.site:9500/live.m3u8?c=22
 #EXTINF:-1 tvg-id="" tvg-name="TVBS亚洲台" tvg-logo="" group-title="台湾",TVBS亚洲台
 http://tv.redrainl.site:9500/live.m3u8?c=25
-#EXTINF:-1 group-title="台湾",东森美洲
-https://epg.pm/stream/bc697051888271f8a5752ad777ff21e4232b22974256ad7ecb90f508f3f9b51c.m3u8
-#EXTINF:-1 group-title="台湾",TVBSG
-http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 group-title="台湾",三立iNews
 http://tv.redrainl.site:9500/live.m3u8?c=51
-#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS欢乐.png" group-title="台湾",TVBS欢乐
-rtmp://59.124.75.138/sat/tv421
 #EXTINF:-1  group-title="台湾",亚洲旅游台
 http://tv.redrainl.site:9500/live.m3u8?c=45
 #EXTINF:-1  group-title="台湾",靖天电视台
 http://tv.redrainl.site:9500/live.m3u8?c=46
+
+#EXTINF:-1 group-title="台湾",Others
+
+#EXTINF:-1  tvg-name="TVBS欢乐台"  group-title="台湾",TVBS欢乐台
+rtmp://59.124.75.138/sat/tv421
+#EXTINF:-1  tvg-name="TVBS国际"  group-title="台湾",TVBS国际
+https://git.io/JgYl2
+#EXTINF:-1 group-title="台湾",东森美洲
+https://epg.pm/stream/bc697051888271f8a5752ad777ff21e4232b22974256ad7ecb90f508f3f9b51c.m3u8
+#EXTINF:-1 group-title="台湾",TVBSG
+http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 #EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="台湾",民视
 http://seb.sason.top/ptv/ftv.php?id=ms
 #EXTINF:-1 tvg-id="7133" tvg-name="民视第一台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ftv-1.png" group-title="台湾",民视第一台
