@@ -175,7 +175,7 @@ http://tv.redrainl.site:9500/live.m3u8?c=45
 http://tv.redrainl.site:9500/live.m3u8?c=46
 
 #EXTINF:-1 group-title="台湾",Others
-
+http://test
 #EXTINF:-1  tvg-name="TVBS欢乐台"  group-title="台湾",TVBS欢乐台
 rtmp://59.124.75.138/sat/tv421
 #EXTINF:-1  tvg-name="TVBS国际"  group-title="台湾",TVBS国际
