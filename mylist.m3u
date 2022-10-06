@@ -171,10 +171,13 @@ http://tv.redrainl.site:9500/live.m3u8?c=22
 http://tv.redrainl.site:9500/live.m3u8?c=25
 #EXTINF:-1 group-title="台湾",三立iNews
 http://tv.redrainl.site:9500/live.m3u8?c=51
-#EXTINF:-1  group-title="台湾",亚洲旅游台
-http://tv.redrainl.site:9500/live.m3u8?c=45
+#EXTINF:-1  group-title="台湾",新唐人亚太电视台
+http://tv.redrainl.site:9500/live.m3u8?c=52
 #EXTINF:-1  group-title="台湾",靖天电视台
 http://tv.redrainl.site:9500/live.m3u8?c=46
+#EXTINF:-1  group-title="台湾",亚洲旅游台
+http://tv.redrainl.site:9500/live.m3u8?c=45
+
 
 #EXTINF:-1 group-title="台湾",---Others---
 http://test
