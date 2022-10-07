@@ -85,6 +85,56 @@ http://111.20.33.93/TVOD/88888893/224/3221226579/index.m3u8
 #EXTINF:-1 catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" tvg-id="" tvg-name="" tvg-logo="" group-title="央视卫视",SiTV都市剧场
 http://111.20.33.93/TVOD/88888893/224/3221226581/index.m3u8
 
+#EXTINF:-1 group-title="上海",上海法治天地
+http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海新闻综合
+http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海东方电影
+http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海都市频道
+http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海外语频道
+http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海第一财经
+http://183.207.255.188/live/program/live/dycjhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海纪实频道
+http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海五星体育
+http://183.207.255.188/live/program/live/ssty/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海劲爆体育
+http://183.207.255.188/live/program/live/jbtyhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海新视觉
+http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海全纪实
+http://183.207.255.188/live/program/live/qjshd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海极速汽车
+http://183.207.255.188/live/program/live/jsqchd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海动漫秀场
+http://183.207.255.188/live/program/live/dmxchd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海欢笑剧场
+http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",都市剧场
+http://183.207.255.188/live/program/live/dsjchd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",足球魅力
+http://183.207.255.188/live/program/live/mlyyhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海生活时尚
+http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海游戏风云
+http://183.207.255.188/live/program/live/yxfyhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海艺术人文
+http://183.207.255.188/live/program/live/ysrw/1300000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海哈哈炫动
+http://183.207.255.188/live/program/live/xdkt/1300000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海东方财经
+http://183.207.255.188/live/program/live/dfcj/1300000/mnf.m3u8
+#EXTINF:-1 group-title="上海",七彩戏剧
+http://183.207.255.188/live/program/live/qcxj/1300000/mnf.m3u8
+#EXTINF:-1 group-title="上海",金鹰卡通
+http://183.207.255.188/live/program/live/jykt/1300000/mnf.m3u8
+#EXTINF:-1 group-title="上海",嘉佳卡通
+http://183.207.255.188/live/program/live/jjkt/1300000/mnf.m3u8
+
+
 #EXTINF:-1 group-title="上海2",上海实时路况:南北高架延安路高架交汇处
 https://09d6466c00724862f53a5aef6d25952a.livehwc3.cn/live-hw.kksmg.com/live/luzheng3.m3u8
 #EXTINF:-1 group-title="上海2",上海实时路况:南北高架共和新路
