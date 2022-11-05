@@ -92,7 +92,7 @@ http://hls.yun.gehua.net.cn:8088/live/QingHai_2000.m3u8
 http://hls.yun.gehua.net.cn:8088/live/NingXia_2000.m3u8
 #EXTINF:-1 tvg-id="42" tvg-name="甘肃卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/gansu.png" group-title="央视卫视",甘肃卫视
 http://hls.yun.gehua.net.cn:8088/live/GanSu_2000.m3u8
-#EXTINF:-1 tvg-id="71" tvg-name="西藏卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/xizang.png" group-title=" ",西藏卫视
+#EXTINF:-1 tvg-id="71" tvg-name="西藏卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/xizang.png" group-title="央视卫视",西藏卫视
 http://hls.yun.gehua.net.cn:8088/live/XiZang_2000.m3u8
 #EXTINF:-1 tvg-id="57" tvg-name="新疆卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/xinjiang.png" group-title="央视卫视",新疆卫视
 http://hls.yun.gehua.net.cn:8088/live/XinJiang_2000.m3u8
