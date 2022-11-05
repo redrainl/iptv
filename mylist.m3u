@@ -103,7 +103,7 @@ http://hls.yun.gehua.net.cn:8088/live/LiaoNingHD_1200.m3u8
 
 
 #EXTINF:-1 group-title="上海",东方卫视
-http://111.20.33.93/TVOD/88888893/224/3221226217/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/DongFangHD_6000.m3u8
 #EXTINF:-1 group-title="上海",上海法治天地
 http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海新闻综合
