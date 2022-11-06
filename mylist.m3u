@@ -476,10 +476,6 @@ http://tv.redrainl.site:9500/live.m3u8?c=15
 http://tv.redrainl.site:9500/live.m3u8?c=16
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="英语",English words for everyda
 http://tv.redrainl.site:9500/live.m3u8?c=17
-#EXTINF:-1 tvg-id="7186" tvg-name="ELTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/eltv.png" group-title="英语",ELTV生活英语台
-http://for40255.sytes.net:8099/tv/iptv/live_4gtv.php?vid=litv-longturn20&nid=106
-#EXTINF:-1 tvg-id="7100" tvg-name="ABCAustralia" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/abcaus.png" group-title="英语",LiveABC互动英语
-http://for40255.sytes.net:8099/tv/iptv/live_4gtv.php?vid=4gtv-live030&nid=188
 #EXTINF:-1 tvg-chno="4gtv-live030" tvg-id="4gtv-live030" tvg-name="LiveABC互动英语频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live030.jpg" group-title="英语",LiveABC互动英语频道
 http://tv.redrainl.site:8081/channel2.m3u8?fid=4gtv-live030&hd=1080
 #EXTINF:-1 tvg-chno="litv-longturn20" tvg-id="litv-longturn20" tvg-name="ELTV生活英语台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn20.jpg" group-title="英语",ELTV生活英语台
