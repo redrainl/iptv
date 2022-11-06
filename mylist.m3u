@@ -63,13 +63,10 @@ http://hls.ye23.vip/hls/gdwshd.m3u8
 
 #EXTINF:-1 group-title="上海",东方卫视
 http://hls.ye23.vip/hls/dfwshd.m3u8
-#EXTINF:-1 group-title="上海",上海法治天地
-http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海新闻综合
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/xwzhhd/2300000/mnf.m3u8
-http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海东方电影
-http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8
+http://58.34.204.67:9901/tsfile/live/1016_1.m3u8
 #EXTINF:-1 group-title="上海",上海都市频道
 http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海外语频道
@@ -78,6 +75,8 @@ http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/dycjhd/4000000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海纪实频道
 http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
+#EXTINF:-1 group-title="上海",上海法治天地
+http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海五星体育
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/ssty/2300000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海劲爆体育
