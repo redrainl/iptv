@@ -470,15 +470,15 @@ http://tv.redrainl.site:9500/live.m3u8?c=14
 https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="英语",English For Daily
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="学英语",English For Daily
 http://tv.redrainl.site:9500/live.m3u8?c=15
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="英语",English Listening
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="学英语",English Listening
 http://tv.redrainl.site:9500/live.m3u8?c=16
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="英语",English words for everyda
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="学英语",English words for everyda
 http://tv.redrainl.site:9500/live.m3u8?c=17
-#EXTINF:-1 tvg-chno="4gtv-live030" tvg-id="4gtv-live030" tvg-name="LiveABC互动英语频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live030.jpg" group-title="英语",LiveABC互动英语频道
+#EXTINF:-1 tvg-chno="4gtv-live030" tvg-id="4gtv-live030" tvg-name="LiveABC互动英语频道" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/4gtv-live030.jpg" group-title="学英语",LiveABC互动英语频道
 http://tv.redrainl.site:8081/channel2.m3u8?fid=4gtv-live030&hd=1080
-#EXTINF:-1 tvg-chno="litv-longturn20" tvg-id="litv-longturn20" tvg-name="ELTV生活英语台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn20.jpg" group-title="英语",ELTV生活英语台
+#EXTINF:-1 tvg-chno="litv-longturn20" tvg-id="litv-longturn20" tvg-name="ELTV生活英语台" tvg-logo="https://4gtvimg.4gtv.tv/4gtv-Image/Production/Channel/Live/litv-longturn20.jpg" group-title="学英语",ELTV生活英语台
 http://tv.redrainl.site:8081/channel2.m3u8?fid=litv-longturn20&hd=1080
 
 
@@ -545,147 +545,18 @@ http://media.fantv.hk/m3u8/archive/channel.m3u8
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="音乐",lofi hip hop radio - beat
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="背景音乐",lofi hip hop radio - beat
 http://tv.redrainl.site:9500/live.m3u8?c=20
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="音乐",lofi hip hop radio - beat
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="背景音乐",lofi hip hop radio - beat
 http://tv.redrainl.site:9500/live.m3u8?c=21
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="音乐",Relaxing Jazz & Sweet Bossa Nova for Calm at Home
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="背景音乐",Relaxing Jazz & Sweet Bossa Nova for Calm at Home
 http://tv.redrainl.site:9500/live.m3u8?c=47
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="音乐",Slow Jazz Music
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="背景音乐",Slow Jazz Music
 http://tv.redrainl.site:9500/live.m3u8?c=48
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="音乐",Chill Out Lounge Jazz Music Radio
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="背景音乐",Chill Out Lounge Jazz Music Radio
 http://tv.redrainl.site:9500/live.m3u8?c=49
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="音乐",Bossa Nova Covers Of Popular Songs
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="背景音乐",Bossa Nova Covers Of Popular Songs
 http://tv.redrainl.site:9500/live.m3u8?c=50
-
-
-
-#EXTINF:-1 tvg-id="7135" tvg-name="民视" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png"  group-title="Youtube",民视新闻
-http://tv.redrainl.site:9500/live.m3u8?c=1
-#EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png"  group-title="Youtube",中视新闻
-http://tv.redrainl.site:9500/live.m3u8?c=2
-#EXTINF:-1 group-title="Youtube",中天新闻
-http://tv.redrainl.site:9500/live.m3u8?c=3
-#EXTINF:-1  tvg-name="TVBS新闻台" group-title="Youtube",TBVS News
-http://tv.redrainl.site:9500/live.m3u8?c=4
-#EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png"  group-title="Youtube",东森新闻
-http://tv.redrainl.site:9500/live.m3u8?c=5
-#EXTINF:-1 tvg-id="6072" tvg-name="三立新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SETNews.png"  group-title="Youtube",三立新闻
-http://tv.redrainl.site:9500/live.m3u8?c=6
-#EXTINF:-1 group-title="Youtube",CBS News
-http://tv.redrainl.site:9500/live.m3u8?c=7
-#EXTINF:-1 tvg-id="742" tvg-name="Sky News" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/SkyNews.png"  group-title="Youtube",Sky News
-http://tv.redrainl.site:9500/live.m3u8?c=8
-#EXTINF:-1 group-title="Youtube",Japan News
-http://tv.redrainl.site:9500/live.m3u8?c=9
-#EXTINF:-1 group-title="Youtube",ABC News
-http://tv.redrainl.site:9500/live.m3u8?c=10
-#EXTINF:-1 tvg-id="6143" tvg-name="台视新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png"  group-title="Youtube",台视新闻
-http://tv.redrainl.site:9500/live.m3u8?c=11
-#EXTINF:-1 tvg-id="734" tvg-name="France 24" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/france24.png"  group-title="Youtube",France 24
-http://tv.redrainl.site:9500/live.m3u8?c=13
-#EXTINF:-1 tvg-id="6140" tvg-name="Bloomberg" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BloombergTV.png"  group-title="Youtube",Bloomberg
-http://tv.redrainl.site:9500/live.m3u8?c=14
-#EXTINF:-1 group-title="Youtube",English For Daily
-http://tv.redrainl.site:9500/live.m3u8?c=15
-#EXTINF:-1 group-title="Youtube",English Listening
-http://tv.redrainl.site:9500/live.m3u8?c=16
-#EXTINF:-1 group-title="Youtube",English words for everydaylife
-http://tv.redrainl.site:9500/live.m3u8?c=17
-#EXTINF:-1 tvg-id="31" tvg-name="港台电视31" tvg-logo="https://live.hkanime.com.hk/png_logo/31.png"  group-title="Youtube",RKHK31 
-http://tv.redrainl.site:9500/live.m3u8?c=18
-#EXTINF:-1 tvg-id="32" tvg-name="港台电视32" tvg-logo="https://live.hkanime.com.hk/png_logo/32.png"  group-title="Youtube",RKHK32 
-http://tv.redrainl.site:9500/live.m3u8?c=19
-#EXTINF:-1 group-title="Youtube",lofi hip hop radio - beats to relax/study to
-http://tv.redrainl.site:9500/live.m3u8?c=20
-#EXTINF:-1 group-title="Youtube",lofi hip hop radio - beats to sleep/chill to
-http://tv.redrainl.site:9500/live.m3u8?c=21
-#EXTINF:-1 tvg-id="6171" tvg-name="寰宇新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/寰宇新闻.png"  group-title="Youtube",寰宇新闻
-http://tv.redrainl.site:9500/live.m3u8?c=22
-#EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS新闻.png"  group-title="Youtube",TVBS
-http://tv.redrainl.site:9500/live.m3u8?c=25
-#EXTINF:-1 group-title="Youtube",凤凰新闻
-http://tv.redrainl.site:9500/live.m3u8?c=26
-#EXTINF:-1 group-title="Youtube",凤凰中文
-http://tv.redrainl.site:9500/live.m3u8?c=27
-#EXTINF:-1 group-title="Youtube",镜新闻
-http://tv.redrainl.site:9500/live.m3u8?c=28
-#EXTINF:-1 group-title="Youtube",ANN News
-http://tv.redrainl.site:9500/live.m3u8?c=29
-#EXTINF:-1 group-title="Youtube",DW News
-http://tv.redrainl.site:9500/live.m3u8?c=30
-#EXTINF:-1 group-title="Youtube",English Speech
-http://tv.redrainl.site:9500/live.m3u8?c=31
-#EXTINF:-1 group-title="Youtube",English Speech 2
-http://tv.redrainl.site:9500/live.m3u8?c=32
-#EXTINF:-1 group-title="Youtube",English speech 3
-http://tv.redrainl.site:9500/live.m3u8?c=33
-#EXTINF:-1 group-title="Youtube",半岛新闻
-http://tv.redrainl.site:9500/live.m3u8?c=34
-#EXTINF:-1 group-title="Youtube",English speech 4
-http://tv.redrainl.site:9500/live.m3u8?c=37
-#EXTINF:-1 group-title="Youtube",TRT world
-http://tv.redrainl.site:9500/live.m3u8?c=35
-#EXTINF:-1 group-title="Youtube",GB News
-http://tv.redrainl.site:9500/live.m3u8?c=36
-#EXTINF:-1 group-title="Youtube",CNA
-http://tv.redrainl.site:9500/live.m3u8?c=38
-#EXTINF:-1 group-title="Youtube",NASA Live Stream
-http://tv.redrainl.site:9500/live.m3u8?c=39
-#EXTINF:-1 group-title="Youtube",NASA Live Stream 2
-http://tv.redrainl.site:9500/live.m3u8?c=40
-#EXTINF:-1 group-title="m3u",CBS Washington DC (WUSA-DT1) (1080p)
-http://51.161.118.146:8080/ISG03_CBS_WASHINGTON_DC_WUSA/video.m3u8
-#EXTINF:-1 group-title="m3u",CBS Seattle WA (KIRO-DT1) (1080p)
-http://51.161.118.146:8080/ISG03_CBS_SEATTLE_WA_KIRO/video.m3u8
-#EXTINF:-1 group-title="m3u",CBS San Francisco CA (KPIX-DT1) (1080p)
-http://51.161.118.146:8080/ISG03_CBS_SAN_FRANCISCO_CA_KPIX/video.m3u8
-#EXTINF:-1 group-title="m3u",CBS Phoenix AZ (KPHO-DT1) (1080p)
-http://51.161.118.146:8080/ISG03_CBS_PHOENIX_AZ_KPHO/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="m3u",NBC 9 Denver CO (KUSA) (1080p)
-https://livevideo01.9news.com/hls/live/2014548/newscasts/live.m3u8
-#EXTINF:-1 group-title="m3u",NBC 12 Phoenix AZ (KPNX) (1080p)
-https://livevideo01.12news.com/hls/live/2015501/newscasts/live.m3u8
-#EXTINF:-1 group-title="m3u",NBC 11 Minneapolis MN (KARE) (1080p)
-https://livevideo01.kare11.com/hls/live/2014544/newscasts/live.m3u8
-#EXTINF:-1 group-title="m3u",NBC 36 Charlotte NC (WCNC-TV) (1080p)
-https://livevideo01.wcnc.com/hls/live/2015505/newscasts/live.m3u8
-#EXTINF:-1 group-title="m3u",NBC 5 Seattle WA (KING) (1080p)
-https://livevideo01.king5.com/hls/live/2006665/live/live.m3u8
-#EXTINF:-1 group-title="m3u",NBC 5 St. Louis MO (KSDK) (1080p)
-https://livevideo01.ksdk.com/hls/live/2014965/newscasts/live.m3u8
-#EXTINF:-1 group-title="m3u",翡翠台
-http://120.84.96.33:808/hls/25/index.m3u8
-#EXTINF:-1 group-title="m3u",明珠台
-http://120.84.96.33:808/hls/26/index.m3u8
-#EXTINF:-1 group-title="m3u",j2
-http://120.84.96.33:808/hls/86/index.m3u8
-#EXTINF:-1 group-title="m3u",Viu
-http://kkmix1.f3322.net:762/hls/ch2/s.m3u8
-#EXTINF:-1 group-title="m3u",Viu
-http://172.96.160.182/live/nn.php?id=0073
-#EXTINF:-1 group-title="m3u",东森电影HD
-http://120.84.96.33:808/hls/32/index.m3u8
-#EXTINF:-1 group-title="m3u",龙翔时代
-http://120.84.96.32:808/hls/35/index.m3u8
-#EXTINF:-1 group-title="m3u",香港台
-http://120.84.96.33:808/hls/81/index.m3u8
-#EXTINF:-1 group-title="m3u",HKS
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 group-title="m3u",凤凰
-http://120.84.96.33:808/hls/28/index.m3u8
-#EXTINF:-1 group-title="m3u",凤凰
-http://120.84.96.33:808/hls/29/index.m3u8
-#EXTINF:-1 group-title="m3u",香港开电视 / HKSTV-HKS (720p)
-http://media.fantv.hk/m3u8/archive/channel.m3u8
-#EXTINF:-1 group-title="m3u",BBC News HD 
-https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
-#EXTINF:-1 group-title="m3u",Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 group-title="m3u",Reuters
-https://reuters-reutersnow-1.plex.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="m3u",RT News
-https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 
 
 
