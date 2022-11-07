@@ -61,55 +61,61 @@ http://hls.ye23.vip/hls/jswshd.m3u8
 http://hls.ye23.vip/hls/gdwshd.m3u8
 #EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/guizhou.png" group-title="央视卫视",贵州卫视
 
-#EXTINF:-1 group-title="上海",东方卫视
+#EXTINF:-1 tvg-name="东方卫视" group-title="上海",东方卫视
 http://hls.ye23.vip/hls/dfwshd.m3u8
-#EXTINF:-1 group-title="上海",上海新闻综合
+#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
 http://58.34.204.67:9901/tsfile/live/1015_1.m3u8
-#EXTINF:-1 group-title="上海",上海东方电影
+#EXTINF:-1 tvg-name="上海东方电影" group-title="上海",上海东方电影
 http://58.34.204.67:9901/tsfile/live/1016_1.m3u8
-#EXTINF:-1 group-title="上海",上海都市频道
+#EXTINF:-1 tvg-name="上海都市频道" group-title="上海",上海都市频道
 http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海外语频道
+#EXTINF:-1 tvg-name="上海外语频道" group-title="上海",上海外语频道
 http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海第一财经
+#EXTINF:-1 tvg-name="上海第一财经" group-title="上海",上海第一财经
 http://58.34.204.67:9901/tsfile/live/1018_1.m3u8
-#EXTINF:-1 group-title="上海",上海纪实频道
+#EXTINF:-1 tvg-name="上海纪实频道" group-title="上海",上海纪实频道
 http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海法治天地
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="上海",CHC家庭影院
+http://58.34.204.67:9901/tsfile/live/1001_1.m3u8
+#EXTINF:-1 tvg-name="CHC动作电影" group-title="上海",CHC动作电影
+http://58.34.204.67:9901/tsfile/live/1005_1.m3u8
+#EXTINF:-1 tvg-name="魅力足球" group-title="上海",魅力足球
+http://58.34.204.67:9901/tsfile/live/1004_1.m3u8
+#EXTINF:-1 tvg-name="上海法制天地" group-title="上海",上海法治天地
 http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海五星体育
+#EXTINF:-1 tvg-name="上海五星体育" group-title="上海",上海五星体育
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/ssty/2300000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海劲爆体育
+#EXTINF:-1 tvg-name="上海劲爆体育" group-title="上海",上海劲爆体育
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/jbtyhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海新视觉
+#EXTINF:-1 tvg-name="上海新视觉" group-title="上海",上海新视觉
 http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海全纪实
+#EXTINF:-1 tvg-name="上海全纪实" group-title="上海",上海全纪实
 http://183.207.255.188/live/program/live/qjshd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海极速汽车
+#EXTINF:-1 tvg-name="上海极速汽车" group-title="上海",上海极速汽车
 http://183.207.255.188/live/program/live/jsqchd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海动漫秀场
+#EXTINF:-1 tvg-name="上海动漫秀场" group-title="上海",上海动漫秀场
 http://183.207.255.188/live/program/live/dmxchd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海欢笑剧场
+#EXTINF:-1 tvg-name="上海欢笑剧场" group-title="上海",上海欢笑剧场
 http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",都市剧场
+#EXTINF:-1 tvg-name="都市剧场" group-title="上海",都市剧场
 http://183.207.255.188/live/program/live/dsjchd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",足球魅力
+#EXTINF:-1 tvg-name="足球魅力" group-title="上海",足球魅力
 http://183.207.255.188/live/program/live/mlyyhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海生活时尚
+#EXTINF:-1 tvg-name="上海生活时尚" group-title="上海",上海生活时尚
 http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海游戏风云
 http://183.207.255.188/live/program/live/yxfyhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海纪实人文
+#EXTINF:-1 tvg-name="上海纪实人文" group-title="上海",上海纪实人文
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/jspdhd/4000000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海哈哈炫动
+#EXTINF:-1 tvg-name="上海哈哈炫动" group-title="上海",上海哈哈炫动
 http://183.207.255.188/live/program/live/xdkt/1300000/mnf.m3u8
-#EXTINF:-1 group-title="上海",上海东方财经
+#EXTINF:-1 tvg-name="上海东方财经" group-title="上海",上海东方财经
 http://183.207.255.188/live/program/live/dfcj/1300000/mnf.m3u8
-#EXTINF:-1 group-title="上海",七彩戏剧
+#EXTINF:-1 tvg-name="七彩戏剧" group-title="上海",七彩戏剧
 http://183.207.255.188/live/program/live/qcxj/1300000/mnf.m3u8
-#EXTINF:-1 group-title="上海",金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通" group-title="上海",金鹰卡通
 http://183.207.255.188/live/program/live/jykt/1300000/mnf.m3u8
-#EXTINF:-1 group-title="上海",嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通" group-title="上海",嘉佳卡通
 http://183.207.255.188/live/program/live/jjkt/1300000/mnf.m3u8
 #EXTINF:-1 group-title="上海",上海实时路况:南北高架延安路高架交汇处
 https://09d6466c00724862f53a5aef6d25952a.livehwc3.cn/live-hw.kksmg.com/live/luzheng3.m3u8
@@ -128,9 +134,9 @@ https://09d6466c00724862f53a5aef6d25952a.livehwc3.cn/live-hw.kksmg.com/live/luzh
 http://tv.redrainl.site:9500/live.m3u8?c=1
 #EXTINF:-1 tvg-id="7176" tvg-name="中视新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" group-title="台湾",中视新闻
 http://tv.redrainl.site:9500/live.m3u8?c=2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="台湾",中天新闻
+#EXTINF:-1 tvg-id="" tvg-name="中天新闻" tvg-logo="" group-title="台湾",中天新闻
 http://tv.redrainl.site:9500/live.m3u8?c=3
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="台湾",TVBS新闻台
+#EXTINF:-1 tvg-id="" tvg-name="TVBS新闻台" tvg-logo="" group-title="台湾",TVBS新闻台
 http://tv.redrainl.site:9500/live.m3u8?c=4
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="台湾",东森新闻
 http://tv.redrainl.site:9500/live.m3u8?c=5
