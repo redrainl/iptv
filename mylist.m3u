@@ -64,31 +64,45 @@ http://hls.ye23.vip/hls/gdwshd.m3u8
 #EXTINF:-1 tvg-name="东方卫视" group-title="上海",东方卫视
 http://hls.ye23.vip/hls/dfwshd.m3u8
 #EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
-http://58.34.204.67:9901/tsfile/live/1015_1.m3u8
-#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
 http://112.25.48.69/live/program/live/xwzhhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
+http://58.34.204.67:9901/tsfile/live/1015_1.m3u8
+#EXTINF:-1 tvg-name="上海东方电影" group-title="上海",上海东方电影
+http://112.25.48.69/live/program/live/dsjpdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海东方电影" group-title="上海",上海东方电影
 http://58.34.204.67:9901/tsfile/live/1016_1.m3u8
 #EXTINF:-1 tvg-name="上海都市频道" group-title="上海",上海都市频道
+http://112.25.48.69/live/program/live/ylpdhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海都市频道" group-title="上海",上海都市频道
 http://58.34.204.67:9901/tsfile/live/1017_1.m3u8
+#EXTINF:-1 tvg-name="上海外语频道" group-title="上海",上海外语频道
+http://112.25.48.69/live/program/live/wypdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海外语频道" group-title="上海",上海外语频道
 http://58.34.204.67:9901/tsfile/live/1019_1.m3u8
 #EXTINF:-1 tvg-name="上海第一财经" group-title="上海",上海第一财经
+http://112.25.48.69/live/program/live/dycjhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海第一财经" group-title="上海",上海第一财经
 http://58.34.204.67:9901/tsfile/live/1018_1.m3u8
+#EXTINF:-1 tvg-name="上海纪实频道" group-title="上海",上海纪实频道
+http://112.25.48.69/live/program/live/jspdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海纪实频道" group-title="上海",上海纪实频道
 http://58.34.204.67:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="上海",CHC家庭影院
 http://58.34.204.67:9901/tsfile/live/1001_1.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" group-title="上海",CHC动作电影
 http://58.34.204.67:9901/tsfile/live/1005_1.m3u8
-#EXTINF:-1 tvg-name="魅力足球" group-title="上海",魅力足球
-http://58.34.204.67:9901/tsfile/live/1004_1.m3u8
 #EXTINF:-1 tvg-name="上海法制天地" group-title="上海",上海法治天地
 http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海五星体育" group-title="上海",上海五星体育
+http://112.25.48.69/live/program/live/ssty/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海五星体育" group-title="上海",上海五星体育
 http://58.34.204.67:9901/tsfile/live/1014_1.m3u8
 #EXTINF:-1 tvg-name="上海劲爆体育" group-title="上海",上海劲爆体育
+http://112.25.48.69/live/program/live/jbtyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海劲爆体育" group-title="上海",上海劲爆体育
 http://219.151.31.35/liveplay-kk.rtxapp.com/live/program/live/jbtyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海新视觉" group-title="上海",上海新视觉
+http://112.25.48.69/live/program/live/xsjhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海新视觉" group-title="上海",上海新视觉
 http://58.34.204.67:9901/tsfile/live/1011_1.m3u8
 #EXTINF:-1 tvg-name="上海全纪实" group-title="上海",上海全纪实
@@ -98,11 +112,19 @@ http://183.207.255.188/live/program/live/jsqchd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海动漫秀场" group-title="上海",上海动漫秀场
 http://183.207.255.188/live/program/live/dmxchd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海欢笑剧场" group-title="上海",上海欢笑剧场
+http://112.25.48.69/live/program/live/hxjchd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="上海欢笑剧场" group-title="上海",上海欢笑剧场
 http://58.34.204.67:9901/tsfile/live/1012_1.m3u8
+#EXTINF:-1 tvg-name="都市剧场" group-title="上海",都市剧场
+http://112.25.48.69/live/program/live/dsjchd/2300000/mnf.m3u8
 #EXTINF:-1 tvg-name="都市剧场" group-title="上海",都市剧场
 http://58.34.204.67:9901/tsfile/live/1008_1.m3u8
 #EXTINF:-1 tvg-name="足球魅力" group-title="上海",足球魅力
+http://112.25.48.69/live/program/live/mlyyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-name="足球魅力" group-title="上海",足球魅力
 http://58.34.204.67:9901/tsfile/live/1004_1.m3u8
+#EXTINF:-1 tvg-name="上海生活时尚" group-title="上海",上海生活时尚
+http://112.25.48.69/live/program/live/shsshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海生活时尚" group-title="上海",上海生活时尚
 hhttp://58.34.204.67:9901/tsfile/live/1020_1.m3u8
 #EXTINF:-1 group-title="上海",上海游戏风云
