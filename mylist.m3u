@@ -65,6 +65,8 @@ http://hls.ye23.vip/hls/gdwshd.m3u8
 http://hls.ye23.vip/hls/dfwshd.m3u8
 #EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
 http://58.34.204.67:9901/tsfile/live/1015_1.m3u8
+#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
+http://112.25.48.69/live/program/live/xwzhhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="上海东方电影" group-title="上海",上海东方电影
 http://58.34.204.67:9901/tsfile/live/1016_1.m3u8
 #EXTINF:-1 tvg-name="上海都市频道" group-title="上海",上海都市频道
