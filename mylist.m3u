@@ -484,8 +484,12 @@ http://tv.redrainl.site:9500/live.m3u8?c=9
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61559500202ef.jpg",FOX NewsNOW
 http://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61559500202ef.jpg",	Fox 10 Phoenix
+http://tv.redrainl.site:9500/live.m3u8?c=54
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61555d61ab15d.jpg",NBC NEWS FHD
 https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a827-ua/VIDEO_0_6596000.m3u8
+#EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61555d61ab15d.jpg",NBC News Live
+http://tv.redrainl.site:9500/live.m3u8?c=54
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/6155648caf500.jpg",CNN HD
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/6155549e6b7a4.jpg",ABC News US HD
