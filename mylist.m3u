@@ -543,6 +543,8 @@ http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
 http://play-live.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="香港" ,无线新闻
 https://php.52sf.ga/@Curly_MouseIPTV-TVB.php?id=1
+#EXTINF:-1 group-title="香港" ,无线新闻台
+http://198.16.64.10:8278/inews_twn/playlist.m3u8?tid=m2206a7a6925a&ct=18336&tsum=47d564f6425ee7ceb9ff1ed026f89669
 #EXTINF:-1  group-title="香港",无线财经
 https://php.52sf.ga/@Curly_MouseIPTV-TVB.php?id=2
 #EXTINF:-1  group-title="香港",now新闻
