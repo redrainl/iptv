@@ -182,6 +182,10 @@ http://tv.redrainl.site:9500/live.m3u8?c=46
 
 #EXTINF:-1 group-title="台湾",---Others---
 http://test
+#EXTINF:-1  group-title="台湾",中天综合
+http://23.237.10.66:16372
+#EXTINF:-1  group-title="台湾",星卫娱乐台
+http://23.237.10.66:16359
 #EXTINF:-1  group-title="台湾",亚洲旅游台
 https://epg.pm/stream/64828fe9b0500f7ac5de0ecdf6e890691e6adb7c10aa1e05529d4f1f90a0b95b.m3u8
 #EXTINF:-1  tvg-name="TVBS欢乐台"  group-title="台湾",TVBS欢乐台
