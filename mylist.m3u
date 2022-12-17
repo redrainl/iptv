@@ -484,12 +484,8 @@ http://tv.redrainl.site:9500/live.m3u8?c=9
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61559500202ef.jpg",FOX NewsNOW
 http://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61559500202ef.jpg",	Fox 10 Phoenix
-http://tv.redrainl.site:9500/live.m3u8?c=54
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61555d61ab15d.jpg",NBC NEWS FHD
 https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a827-ua/VIDEO_0_6596000.m3u8
-#EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/61555d61ab15d.jpg",NBC News Live
-http://tv.redrainl.site:9500/live.m3u8?c=54
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/6155648caf500.jpg",CNN HD
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 group-title="欧美日" tvg-logo="https://www.hualigs.cn/image/6155549e6b7a4.jpg",ABC News US HD
@@ -516,6 +512,18 @@ http://tv.redrainl.site:8081/channel2.m3u8?fid=4gtv-live030&hd=1080
 http://tv.redrainl.site:8081/channel2.m3u8?fid=litv-longturn20&hd=1080
 
 
+#EXTINF:-1 group-title="香港",翡翠华丽台
+http://23.237.10.66:16410
+#EXTINF:-1 group-title="香港",TVB翡翠台
+http://23.237.10.66:16106
+#EXTINF:-1 group-title="香港",翡翠台
+http://113.117.74.11:808/hls/67/index.m3u8
+#EXTINF:-1 group-title="香港",翡翠台
+http://50.7.168.234:8278/jade_twn/playlist.m3u8?tid=m51e8c5582227&ct=18336&tsum=d0987332bec9b0fecc98b9b9ff3ddeac
+#EXTINF:-1 group-title="香港",星河台
+http://113.117.74.11:808/hls/135/index.m3u8
+#EXTINF:-1 group-title="香港",金马影院
+http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 group-title="香港",凤凰资讯1
 http://vl15191373.imwork.net:8880/udp/239.93.0.118:2191
 #EXTINF:-1 group-title="香港",凤凰资讯2
