@@ -160,6 +160,8 @@ http://tv.redrainl.site:9500/live.m3u8?c=2
 http://tv.redrainl.site:9500/live.m3u8?c=3
 #EXTINF:-1 tvg-id="" tvg-name="TVBS新闻台" tvg-logo="" group-title="台湾",TVBS新闻台
 http://tv.redrainl.site:9500/live.m3u8?c=4
+#EXTINF:-1 tvg-id="" tvg-name="镜新闻" tvg-logo="" group-title="台湾",镜新闻
+http://tv.redrainl.site:9500/live.m3u8?c=28
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="台湾",东森新闻
 http://tv.redrainl.site:9500/live.m3u8?c=5
 #EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/台视新闻.png" group-title="台湾",台视新闻
