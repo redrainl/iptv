@@ -61,7 +61,30 @@ http://hls.ye23.vip/hls/jswshd.m3u8
 http://hls.ye23.vip/hls/gdwshd.m3u8
 #EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://n.ysyz.top:99/buyaolian/guizhou.png" group-title="央视卫视",贵州卫视
 
-
+#EXTINF:-1 tvg-name="东方卫视" group-title="上海",东方卫视
+http://tv.redrainl.site:88/sh.php?id=dfws
+#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
+http://tv.redrainl.site:88/sh.php?id=shxwzh
+#EXTINF:-1 tvg-name="东方影视" group-title="上海",东方影视
+http://tv.redrainl.site:88/sh.php?id=dfys
+#EXTINF:-1 tvg-name="上海纪实人文" group-title="上海",上海纪实人文
+http://tv.redrainl.site:88/sh.php?id=shjsrw
+#EXTINF:-1 tvg-name="上海外语频道" group-title="上海",上海外语频道
+http://tv.redrainl.site:88/sh.php?id=shics
+#EXTINF:-1 tvg-name="上海都市频道" group-title="上海",上海都市频道
+http://tv.redrainl.site:88/sh.php?id=shds
+#EXTINF:-1 tvg-name="上海第一财经" group-title="上海",上海第一财经
+http://tv.redrainl.site:88/sh.php?id=dycj
+#EXTINF:-1 tvg-name="上海乐游" group-title="上海",上海乐游
+http://tv.redrainl.site:88/sh.php?id=shly
+#EXTINF:-1 tvg-name="哈哈炫动" group-title="上海",哈哈炫动
+http://tv.redrainl.site:88/sh.php?id=hhxd
+#EXTINF:-1 tvg-name="东方财经" group-title="上海",东方财经
+http://tv.redrainl.site:88/sh.php?id=dfcj
+#EXTINF:-1 tvg-name="上海教育" group-title="上海",上海教育
+http://tv.redrainl.site:88/sh.php?id=shjy
+#EXTINF:-1 tvg-name="金色学堂" group-title="上海",金色学堂
+http://tv.redrainl.site:88/sh.php?id=jsxt
 #EXTINF:-1 tvg-name="上海新闻综合" group-title="上海",上海新闻综合
 http://lu1.cc/itv/php/bst5g.php?id=shxwzh
 #EXTINF:-1 tvg-name="东方卫视" group-title="上海",东方卫视
