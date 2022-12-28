@@ -787,6 +787,10 @@ http://tv.redrainl.site:8081/channel2.m3u8?fid=4gtv-live030&hd=1080
 http://tv.redrainl.site:8081/channel2.m3u8?fid=litv-longturn20&hd=1080
 
 
+#EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.xyz/logo/凤凰中文.png" group-title="蜀小果香港",凤凰中文
+http://tv.redrainl.site:5678/sxg.php?id=test1_4000
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.xyz/logo/凤凰资讯.png" group-title="蜀小果香港",凤凰资讯
+http://tv.redrainl.site:5678/sxg.php?id=test2_4000
 #EXTINF:-1 group-title="香港",翡翠华丽台
 http://23.237.10.66:16410
 #EXTINF:-1 group-title="香港",TVB翡翠台
