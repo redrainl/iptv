@@ -1,4 +1,13 @@
 #!/bin/bash
+
+#read -p "确定要运行脚本吗？(y/n): " choice
+
+## 判断用户的选择，如果不是"y"则退出脚本
+#if [ "$choice" != "y" ]; then
+#    echo "脚本已取消."
+#    exit 0
+#fi
+
 time=$(date +%m%d%H%M)
 i=0
 
@@ -8,7 +17,7 @@ echo "2. Beijing_liantong_145"
 echo "3. Sichuan_333"
 echo "4. Zhejiang_120"
 echo "5. Beijing_dianxin_186"
-echo "6. Jieyang_129(no)"
+echo "6. Jieyang_129"
 read -p "输入选择（1-5）: " city_choice
 
 # 根据用户选择设置城市和相应的stream
@@ -35,7 +44,7 @@ case $city_choice in
         ;;
     6)
         city="Jieyang_129"
-        stream="/38/index.m3u8"
+        stream="hls/38/index.m3u8"
         ;;
 
     *)
@@ -60,9 +69,21 @@ while read line; do
     i=$(($i + 1))
     ip=$line
     url="http://$ip/$stream"
-    echo $url
-    curl $url --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
-    a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
+    if [ "$city" == "Jieyang_129" ]; then
+        echo $url
+        # 使用yt-dlp下载并解析下载速度
+        output=$(yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "-t 5" "$url" 2>&1)
+        a=$(echo "$output" | grep -oP 'at \K[0-9.]+M')
+        rm -f  new-archive.txt output.ts
+    else
+        echo $url
+        curl $url --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
+        a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
+    fi  
+
+
+
+
     echo "第$i/$lines个：$ip    $a"
     echo "$ip    $a" >> "speedtest_${city}_$time.log"
 done < "$filename"
@@ -92,3 +113,5 @@ echo "北京电信,#genre#" >>zubo.txt
 cat txt/Beijing_dianxin_186.txt >>zubo.txt
 echo "北京联通,#genre#" >>zubo.txt
 cat txt/Beijing_liantong_145.txt >>zubo.txt
+echo "广东揭阳,#genre#" >>zubo.txt
+cat txt/Jieyang_129.txt >>zubo.txt
