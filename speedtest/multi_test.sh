@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd /root/iptv
 #read -p "确定要运行脚本吗？(y/n): " choice
 
 ## 判断用户的选择，如果不是"y"则退出脚本
@@ -21,8 +21,10 @@ if [ $# -eq 0 ]; then
   echo "6. 揭阳酒店（Jieyang_129）"
   echo "7. 广东电信（Guangdong_332）"
   echo "8. 河南电信（Henan_327）"
+  echo "9. 山西电信（Shanxi_117）"
+  echo "10. 天津联通（Tianjin_160）"
   echo "0. 全部"
-  read -t 10 -p "输入选择（1-8）或在10秒内无输入将默认选择全部: " city_choice
+  read -t 10 -p "输入选择或在10秒内无输入将默认选择全部: " city_choice
 
   if [ -z "$city_choice" ]; then
       echo "未检测到输入，自动选择全部选项..."
@@ -37,27 +39,27 @@ fi
 case $city_choice in
     1)
         city="Shanghai_103"
-        stream="udp/239.45.3.209:5140"
+        stream="udp/239.45.1.4:5140"
 	channel_key="上海电信"
         ;;
     2)
         city="Beijing_liantong_145"
-        stream="rtp/239.3.1.159:8000"
+        stream="rtp/239.3.1.236:2000"
         channel_key="北京联通"
         ;;
     3)
         city="Sichuan_333"
-        stream="udp/239.93.1.9:2192"
+        stream="udp/239.93.42.33:5140"
         channel_key="四川电信"
         ;;
     4)
         city="Zhejiang_120"
-        stream="rtp/233.50.200.191:5140"
+        stream="rtp/233.50.201.63:5140"
         channel_key="浙江电信"
         ;;
     5)
         city="Beijing_dianxin_186"
-        stream="udp/225.1.8.37:8002"
+        stream="udp/225.1.8.80:2000"
         channel_key="北京电信"
         ;;
     6)
@@ -67,7 +69,7 @@ case $city_choice in
         ;;
     7)
         city="Guangdong_332"
-        stream="udp/239.77.1.19:5146"
+        stream="udp/239.77.1.98:5146"
         channel_key="广东电信"
         ;;
     8)
@@ -75,9 +77,19 @@ case $city_choice in
         stream="rtp/239.16.20.1:10010"
         channel_key="河南电信"
         ;;
+    9)
+        city="Shanxi_117"
+        stream="udp/239.1.1.7:8007"
+        channel_key="山西电信"
+        ;;
+    10)
+        city="Tianjin_160"
+        stream="udp/225.1.2.190:5002"
+        channel_key="天津联通"
+        ;;
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
-        for option in {1..8}; do
+        for option in {1..9}; do
           bash  ./multi_test.sh $option  # 假定script_name.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -98,7 +110,7 @@ echo "===============从tonkiang检索最新ip================="
 python3 hoteliptv.py $channel_key  >test.html
 grep -o "href='hotellist.html?s=[^']*'"  test.html>temp.txt
 # sed -n "s/.*href='hotellist.html?s=\([^']*\)'.*/\1/p" temp.txt > $filename
-sed -n "s/^.*href='hotellist.html?s=\([^:]*:[0-9]*\).*/\1/p" temp.txt > $filename
+sed -n "s/^.*href='hotellist.html?s=\([^:]*:[0-9]*\).*/\1/p" temp.txt | sort | uniq > $filename
 rm -f test.html 
 
 
@@ -157,16 +169,20 @@ echo "北京电信,#genre#" >>zubo.txt
 cat txt/Beijing_dianxin_186.txt >>zubo.txt
 echo "北京联通,#genre#" >>zubo.txt
 cat txt/Beijing_liantong_145.txt >>zubo.txt
+echo "天津联通,#genre#" >>zubo.txt
+cat txt/Tianjin_160.txt >>zubo.txt
 echo "河南电信,#genre#" >>zubo.txt
 cat txt/Henan_327.txt >>zubo.txt
+echo "山西电信,#genre#" >>zubo.txt
+cat txt/Shanxi_117.txt >>zubo.txt
 echo "广东电信,#genre#" >>zubo.txt
 cat txt/Guangdong_332.txt >>zubo.txt
 echo "四川电信,#genre#" >>zubo.txt
 cat txt/Sichuan_333.txt >>zubo.txt
 echo "浙江电信,#genre#" >>zubo.txt
 cat txt/Zhejiang_120.txt >>zubo.txt
-echo "广东揭阳,#genre#" >>zubo.txt
-cat txt/Jieyang_129.txt >>zubo.txt
+# echo "广东揭阳,#genre#" >>zubo.txt
+# cat txt/Jieyang_129.txt >>zubo.txt
 
 scp root@你的服务器:/iptv/mylist.txt .
 # sed -i '/^上海电信/,$d' mylist.txt
@@ -175,4 +191,3 @@ cat zubo.txt  mylist.txt >temp.txt  && mv -f  temp.txt mylist.txt
 scp mylist.txt root@你的服务器:/iptv/mylist.txt
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
-
