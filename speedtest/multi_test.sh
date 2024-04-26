@@ -1,12 +1,4 @@
 #!/bin/bash
-cd /root/iptv
-#read -p "确定要运行脚本吗？(y/n): " choice
-
-## 判断用户的选择，如果不是"y"则退出脚本
-#if [ "$choice" != "y" ]; then
-#    echo "脚本已取消."
-#    exit 0
-#fi
 
 time=$(date +%m%d%H%M)
 i=0
@@ -23,8 +15,13 @@ if [ $# -eq 0 ]; then
   echo "8. 河南电信（Henan_327）"
   echo "9. 山西电信（Shanxi_117）"
   echo "10. 天津联通（Tianjin_160）"
+  echo "11. 湖北电信（Hubei_90）"
+  echo "12. 福建电信（Fujian_114）"
+  echo "13. 湖南电信（Hunan_282）"
+  echo "14. 甘肃电信（Gansu_105）"
+  echo "15. 河北联通（Hebei_313）"
   echo "0. 全部"
-  read -t 10 -p "输入选择或在10秒内无输入将默认选择全部: " city_choice
+  read -t 15 -p "输入选择或在10秒内无输入将默认选择全部: " city_choice
 
   if [ -z "$city_choice" ]; then
       echo "未检测到输入，自动选择全部选项..."
@@ -87,9 +84,34 @@ case $city_choice in
         stream="udp/225.1.2.190:5002"
         channel_key="天津联通"
         ;;
+    11)
+        city="Hubei_90"
+        stream="rtp/239.69.1.141:10482"
+        channel_key="湖北电信"
+        ;;
+    12)
+        city="Fujian_114"
+        stream="rtp/239.61.2.183:9086"
+        channel_key="福建电信"
+        ;;
+    13)
+        city="Hunan_282"
+        stream="udp/239.76.252.35:9000"
+        channel_key="湖南电信"
+        ;;
+    14)
+        city="Gansu_105"
+        stream="udp/239.255.30.123:8231"
+        channel_key="甘肃电信"
+        ;;
+    15)
+        city="Hebei_313"
+        stream="rtp/239.253.93.134:6631"
+        channel_key="河北联通"
+        ;;
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
-        for option in {1..9}; do
+        for option in {1..15}; do
           bash  ./multi_test.sh $option  # 假定script_name.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -154,7 +176,7 @@ cat "result/result_${city}.txt"
 ip1=$(head -n 1 result/result_${city}.txt | awk '{print $2}')
 ip2=$(head -n 2 result/result_${city}.txt | tail -n 1 | awk '{print $2}')
 ip3=$(head -n 3 result/result_${city}.txt | tail -n 1 | awk '{print $2}')
-
+rm -f speedtest_${city}_$time.log
 sed "s/ipipip/$ip1/g" template/template_${city}.txt >tmp1.txt
 sed "s/ipipip/$ip2/g" template/template_${city}.txt >tmp2.txt
 sed "s/ipipip/$ip3/g" template/template_${city}.txt >tmp3.txt
@@ -181,6 +203,16 @@ echo "四川电信,#genre#" >>zubo.txt
 cat txt/Sichuan_333.txt >>zubo.txt
 echo "浙江电信,#genre#" >>zubo.txt
 cat txt/Zhejiang_120.txt >>zubo.txt
+echo "湖北电信,#genre#" >>zubo.txt
+cat txt/Hubei_90.txt >>zubo.txt
+echo "福建电信,#genre#" >>zubo.txt
+cat txt/Fujian_114.txt >>zubo.txt
+echo "湖南电信,#genre#" >>zubo.txt
+cat txt/Hunan_282.txt >>zubo.txt
+echo "甘肃电信,#genre#" >>zubo.txt
+cat txt/Gansu_105.txt >>zubo.txt
+echo "河北联通,#genre#" >>zubo.txt
+cat txt/Hebei_313.txt >>zubo.txt
 # echo "广东揭阳,#genre#" >>zubo.txt
 # cat txt/Jieyang_129.txt >>zubo.txt
 
@@ -191,3 +223,4 @@ cat zubo.txt  mylist.txt >temp.txt  && mv -f  temp.txt mylist.txt
 scp mylist.txt root@你的服务器:/iptv/mylist.txt
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
+
