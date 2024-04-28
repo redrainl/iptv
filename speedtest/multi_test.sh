@@ -62,7 +62,7 @@ case $city_choice in
     6)
         city="Jieyang_129"
         stream="hls/38/index.m3u8"
-        channel_key="揭阳"
+        channel_key="揭西"
         ;;
     7)
         city="Guangdong_332"
@@ -213,8 +213,8 @@ echo "甘肃电信,#genre#" >>zubo.txt
 cat txt/Gansu_105.txt >>zubo.txt
 echo "河北联通,#genre#" >>zubo.txt
 cat txt/Hebei_313.txt >>zubo.txt
-# echo "广东揭阳,#genre#" >>zubo.txt
-# cat txt/Jieyang_129.txt >>zubo.txt
+echo "揭西凤凰,#genre#" >>zubo.txt
+cat txt/Jieyang_129.txt >>zubo.txt
 
 scp root@你的服务器:/iptv/mylist.txt .
 # sed -i '/^上海电信/,$d' mylist.txt
