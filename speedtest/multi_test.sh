@@ -132,7 +132,7 @@ echo "===============从tonkiang检索最新ip================="
 python3 hoteliptv.py $channel_key  >test.html
 grep -o "href='hotellist.html?s=[^']*'"  test.html>temp.txt
 # sed -n "s/.*href='hotellist.html?s=\([^']*\)'.*/\1/p" temp.txt > $filename
-sed -n "s/^.*href='hotellist.html?s=\([^:]*:[0-9]*\).*/\1/p" temp.txt | sort | uniq > $filename
+# sed -n "s/^.*href='hotellist.html?s=\([^:]*:[0-9]*\).*/\1/p" temp.txt | sort | uniq > $filename
 rm -f test.html 
 
 
