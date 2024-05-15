@@ -1,7 +1,6 @@
-#!/bin/bash
-cd /root/iptv
 #read -p "确定要运行脚本吗？(y/n): " choice
-
+pwd
+cd speedtest
 time=$(date +%m%d%H%M)
 i=0
 
@@ -247,10 +246,13 @@ cat txt/Gansu_105.txt >>zubo.txt
 echo "河北联通,#genre#" >>zubo.txt
 cat txt/Hebei_313.txt >>zubo.txt
 
-scp root@你的服务器:/speedtest/mylist.txt .
+# scp root@你的服务器:/speedtest/mylist.txt .
 # sed -i '/^上海电信/,$d' mylist.txt
-sed -i '/^上海电信/,/^上海IPV6/{/^上海IPV6/!d;}' mylist.txt
-cat zubo.txt  mylist.txt >temp.txt  && mv -f  temp.txt mylist.txt
-scp mylist.txt root@你的服务器:/speedtest/mylist.txt
+# sed -i '/^上海电信/,/^上海IPV6/{/^上海IPV6/!d;}' mylist.txt
+# cat zubo.txt  mylist.txt >temp.txt  && mv -f  temp.txt mylist.txt
+# scp mylist.txt root@你的服务器:/speedtest/mylist.txt
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
+for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result/zubo.txt 
+
+sed -i ':a;N;$!ba;s/\n/<br>/g' result/zubo.txt 
