@@ -21,11 +21,12 @@ jobs:
     - name: Run Multitest Script
       working-directory: iptv/speedtest
       run: |
-        ./speedtest/multi_test.sh
+        cd $GITHUB_WORKSPACE/speedtest
+        ./multi_test.sh
       
     - name: Update Results
       run: |
-        cd $GITHUB_WORKSPACE/iptv/speedtest/result/
+        cd $GITHUB_WORKSPACE/speedtest/result/
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
