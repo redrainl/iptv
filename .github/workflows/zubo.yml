@@ -21,7 +21,7 @@ jobs:
     - name: Run Multitest Script
       working-directory: iptv/speedtest
       run: |
-        ./multi_test.sh
+        ./speedtest/multi_test.sh
       
     - name: Update Results
       run: |
