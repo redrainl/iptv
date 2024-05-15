@@ -1,6 +1,6 @@
 #read -p "确定要运行脚本吗？(y/n): " choice
 pwd
-cd speedtest
+#cd speedtest
 time=$(date +%m%d%H%M)
 i=0
 
