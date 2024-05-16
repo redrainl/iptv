@@ -1,1 +1,1 @@
-pwd > test/pwd.txt
+pwd
