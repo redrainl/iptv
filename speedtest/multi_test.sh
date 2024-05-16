@@ -197,12 +197,11 @@ rm -f speedtest_${city}_$time.log
 
 #----------------------用3个最快ip生成对应城市的txt文件---------------------------
 
-if [ $city = "Shanghai_103" ]; then
-    program="template/template_${city}.txt"
-else
-    program="template_min/template_${city}.txt"
-
-fi
+# if [ $city = "Shanghai_103" ]; then
+     program="template/template_${city}.txt"
+# else
+#     program="template_min/template_${city}.txt"
+# fi
 
 sed "s/ipipip/$ip1/g" $program >tmp1.txt
 echo "=======================sed "s/ipipip/$ip1/g" $program >tmp1.txt"
@@ -255,4 +254,4 @@ cat txt/Hebei_313.txt >>zubo.txt
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result/zubo.txt 
 
-sed -i ':a;N;$!ba;s/\n/<br>/g' result/zubo.txt 
+#sed -i ':a;N;$!ba;s/\n/<br>/g' result/zubo.txt 
