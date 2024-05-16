@@ -131,7 +131,7 @@ onlyport="ip/${city}.port"
 # onlyport="ip/all.port"
 # 搜索最新ip
 
-echo "===============从tonkiang检索$channel_key最新ip================="
+echo "===============从tonkiang检索    $channel_key    最新ip================="
 /usr/bin/python3 hoteliptv.py $channel_key  >test.html
 grep -o "href='hotellist.html?s=[^']*'"  test.html > tempip.txt
 
