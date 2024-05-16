@@ -127,8 +127,8 @@ esac
 # 使用城市名作为默认文件名，格式为 CityName.ip
 ipfile="ip/${city}.ip"
 onlyip="ip/${city}.onlyip"
-# onlyport="ip/${city}.port"
-onlyport="ip/all.port"
+onlyport="ip/${city}.port"
+# onlyport="ip/all.port"
 # 搜索最新ip
 
 echo "===============从tonkiang检索$channel_key最新ip================="
@@ -251,7 +251,7 @@ cat txt/Hebei_313.txt >>zubo.txt
 # cat zubo.txt  mylist.txt >temp.txt  && mv -f  temp.txt mylist.txt
 # scp mylist.txt root@你的服务器:/speedtest/mylist.txt
 
-for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
-for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result/result_all 
+for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done
+for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result_all.txt 
 
 #sed -i ':a;N;$!ba;s/\n/<br>/g' result/result_all.txt 
