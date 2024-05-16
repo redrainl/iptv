@@ -1,4 +1,4 @@
-name: Daily Job
+name: test
 
 on:
   workflow_dispatch:
@@ -10,14 +10,9 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-      
-    - name: Install Dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y yt-dlp sed netcat
-      
+           
     - name: Run Multitest Script
-      working-directory: iptv/speedtest
+      #working-directory: iptv/speedtest
       run: |
         cd $GITHUB_WORKSPACE/speedtest
         ./test.sh
