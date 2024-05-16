@@ -252,6 +252,6 @@ cat txt/Hebei_313.txt >>zubo.txt
 # scp mylist.txt root@你的服务器:/speedtest/mylist.txt
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
-for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result/zubo.txt 
+for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result/result_all 
 
-#sed -i ':a;N;$!ba;s/\n/<br>/g' result/zubo.txt 
+#sed -i ':a;N;$!ba;s/\n/<br>/g' result/result_all.txt 
