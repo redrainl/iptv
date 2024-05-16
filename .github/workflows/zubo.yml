@@ -19,10 +19,10 @@ jobs:
         sudo apt-get install -y yt-dlp sed netcat
       
     - name: Run Multitest Script
-      working-directory: iptv/speedtest
+      #working-directory: iptv/speedtest
       run: |
         cd $GITHUB_WORKSPACE/speedtest
-        ./multi_test.sh
+        bash ./multi_test.sh
       
     - name: Update Results
       run: |
