@@ -1,0 +1,1 @@
+pwd > test/pwd.txt
