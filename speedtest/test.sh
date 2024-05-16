@@ -147,7 +147,7 @@ while IFS= read -r ip; do
 	nc -w 1 -v -z $ip $port
         output=$(nc -w 1 -v -z "$ip" "$port" 2>&1)
         # 如果连接成功，且输出包含 "succeeded"，则将结果保存到输出文件中
-        if [[ $output == *"received"* ]]; then
+        if [[ $output == *"succeeded"* ]]; then
             # 使用 awk 提取 IP 地址和端口号对应的字符串，并保存到输出文件中
             echo "$output" | grep "succeeded" | awk -v ip="$ip" -v port="$port" '{print ip ":" port}' >> "$ipfile"
         fi
