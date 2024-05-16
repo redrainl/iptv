@@ -143,11 +143,11 @@ rm -f test.html tempip.txt tmp_onlyip $ipfile
 while IFS= read -r ip; do
     while IFS= read -r port; do
         # 尝试连接 IP 地址和端口号
-        echo  "nc -w 1 -z $ip $port"
-	nc -w 1 -z $ip $port
-        output=$(nc -w 1 -z "$ip" "$port" 2>&1)
+        echo  "ncat -w 1 -v -z $ip $port"
+	ncat -w 1 -v -z $ip $port
+        output=$(ncat -w 1 -v -z "$ip" "$port" 2>&1)
         # 如果连接成功，且输出包含 "succeeded"，则将结果保存到输出文件中
-        if [[ $output == *"succeeded"* ]]; then
+        if [[ $output == *"received"* ]]; then
             # 使用 awk 提取 IP 地址和端口号对应的字符串，并保存到输出文件中
             echo "$output" | grep "succeeded" | awk -v ip="$ip" -v port="$port" '{print ip ":" port}' >> "$ipfile"
         fi
