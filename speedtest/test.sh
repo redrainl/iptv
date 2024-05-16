@@ -143,7 +143,7 @@ rm -f test.html tempip.txt tmp_onlyip $ipfile
 while IFS= read -r ip; do
     while IFS= read -r port; do
         # 尝试连接 IP 地址和端口号
-        nc -w 1 -z "$ip" "$port" 2>&1
+        nc -w 1 -z "$ip" "$port"
         output=$(nc -w 1 -z "$ip" "$port" 2>&1)
         # 如果连接成功，且输出包含 "succeeded"，则将结果保存到输出文件中
         if [[ $output == *"succeeded"* ]]; then
