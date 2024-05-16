@@ -1,0 +1,32 @@
+name: Daily Job
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y yt-dlp sed netcat
+      
+    - name: Run Multitest Script
+      working-directory: iptv/speedtest
+      run: |
+        cd $GITHUB_WORKSPACE/speedtest
+        ./test.sh
+      
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE/speedtest/test/
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update test"
+        git push
