@@ -143,7 +143,7 @@ rm -f test.html tempip.txt tmp_onlyip $ipfile
 while IFS= read -r ip; do
     while IFS= read -r port; do
         # 尝试连接 IP 地址和端口号
-        nc -w 1 -v -z $ip $port
+        # nc -w 1 -v -z $ip $port
         output=$(nc -w 1 -v -z "$ip" "$port" 2>&1)
         # 如果连接成功，且输出包含 "succeeded"，则将结果保存到输出文件中
         if [[ $output == *"succeeded"* ]]; then
@@ -251,7 +251,7 @@ cat txt/Hebei_313.txt >>zubo.txt
 # cat zubo.txt  mylist.txt >temp.txt  && mv -f  temp.txt mylist.txt
 # scp mylist.txt root@你的服务器:/speedtest/mylist.txt
 
-for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done
-for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done  >> result_all.txt 
+# for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done
+for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done  > result_all.txt 
 
 #sed -i ':a;N;$!ba;s/\n/<br>/g' result/result_all.txt 
