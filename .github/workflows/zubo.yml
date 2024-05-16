@@ -22,7 +22,7 @@ jobs:
       #working-directory: iptv/speedtest
       run: |
         cd $GITHUB_WORKSPACE/speedtest
-        bash ./multi_test.sh 0
+        bash ./multi_test.sh 1
       
     - name: Update Results
       run: |
