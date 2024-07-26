@@ -1,4 +1,4 @@
-name: Daily Job
+name: Fofa
 
 on:
   schedule:
