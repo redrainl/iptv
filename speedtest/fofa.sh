@@ -182,6 +182,7 @@ while IFS= read -r ip; do
     tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
     echo "nc -w 1 -z $tmp_ip 2>&1"
     output=$(nc -w 1 -z $tmp_ip 2>&1)
+    echo $output    
     # 如果连接成功，且输出包含 "succeeded"，则将结果保存到输出文件中
     if [[ $output == *"succeeded"* ]]; then
         # 使用 awk 提取 IP 地址和端口号对应的字符串，并保存到输出文件中
