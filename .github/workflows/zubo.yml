@@ -23,7 +23,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/speedtest
         bash ./multi_test.sh
-      
+        bash ./fofa.sh
     - name: Update Results
       run: |
         cd $GITHUB_WORKSPACE/speedtest
