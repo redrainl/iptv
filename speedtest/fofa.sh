@@ -179,7 +179,7 @@ grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]
 # 遍历文件 A 中的每个 IP 地址
 while IFS= read -r ip; do
     # 尝试连接 IP 地址和端口号，并将输出保存到变量中
-    tmp_ip=$(echo "$ip" | sed 's/:/ /')
+    tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
     echo "nc -w 1 -z $tmp_ip 2>&1"
     output=$(nc -w 1 -z $tmp_ip 2>&1)
     # 如果连接成功，且输出包含 "succeeded"，则将结果保存到输出文件中
