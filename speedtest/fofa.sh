@@ -175,7 +175,7 @@ curl -o test.html "$url_fofa"
 #echo $url_fofa
 echo "$ipfile"
 grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > "$ipfile"
-
+rm -f test.html
 # 遍历文件 A 中的每个 IP 地址
 while IFS= read -r ip; do
     # 尝试连接 IP 地址和端口号，并将输出保存到变量中
