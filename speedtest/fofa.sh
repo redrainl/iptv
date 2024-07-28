@@ -46,7 +46,7 @@ case $city_choice in
         city="Shanghai_103"
         stream="udp/239.45.1.4:5140"
 	channel_key="上海"
-        url_fofa=$(echo  '"udpxy" && country="CN" && region="Shanghai" && protocol="http"' | base64 |tr -d '\n')
+        url_fofa=$(echo  '"udpxy" && country="CN" && region="Shanghai" && org="China Telecom Group" && protocol="http"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     2)
@@ -96,7 +96,7 @@ case $city_choice in
         city="Henan_327"
         stream="rtp/239.16.20.1:10010"
         channel_key="河南电信"
-        url_fofa=$(echo  '"udpxy" && country="CN" && region="Henan" && city="Zhengzhou" && protocol="http"' | base64 |tr -d '\n')
+        url_fofa=$(echo  '"udpxy" && country="CN" && region="Henan" && city="Zhengzhou"  && protocol="http"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     9)
@@ -115,9 +115,9 @@ case $city_choice in
         ;;
     11)
         city="Hubei_90"
-        stream="rtp/239.69.1.141:10482"
+        stream="rtp/239.254.96.96:8550"
         channel_key="湖北电信"
-        url_fofa=$(echo  '"udpxy" && country="CN" && region="Hubei" && protocol="http"' | base64 |tr -d '\n')
+        url_fofa=$(echo  '"udpxy" && country="CN" && region="Hubei" && city="Wuhan" && protocol="http"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     12)
@@ -138,14 +138,13 @@ case $city_choice in
         city="Gansu_105"
         stream="udp/239.255.30.123:8231"
         channel_key="甘肃电信"
-        url_fofa=$(echo  '"udpxy" && country="CN" && region="Gansu" &&  protocol="http"' | base64 |tr -d '\n')
+        url_fofa=$(echo  '"udpxy" && country="CN" && region="Gansu" && city="Lanzhou" && protocol="http"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     15)
         city="Hebei_313"
         stream="rtp/239.253.93.134:6631"
         channel_key="河北联通"
-        url_fofa=$(echo  '"udpxy" && country="CN" && region="Shanghai" && protocol="http"' | base64 |tr -d '\n')
         url_fofa=$(echo ""udpxy" && country="CN" && region="Hebei"  && protocol="http"" | base64)
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
@@ -229,7 +228,7 @@ program="template/template_${city}.txt"
 sed "s/ipipip/$ip1/g" "$program" > tmp1.txt
 sed "s/ipipip/$ip2/g" "$program" > tmp2.txt
 sed "s/ipipip/$ip3/g" "$program" > tmp3.txt
-cat tmp1.txt tmp2.txt tmp3.txt > "txt/${city}.txt"
+cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
 
 rm -rf tmp1.txt tmp2.txt tmp3.txt
 
