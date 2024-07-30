@@ -1,11 +1,4 @@
-1199k  qnap.yjnhome.com:4000
-1105k  wg.mxmy.net:8888
-1091k  221.221.92.194:8888
-1086k  drive.mxmy.net:8888
-1062k  iptv.8t.cx:8180
-1042k  123.113.237.79:8888
-1012k  noeypszbgd.cn.zzmd.fun:8888
-960k  yfaqkkms.zzmd.fun:8888
-956k  ikuai.zlsip.top:4022
-845k  masiqi.myqnapcloud.com:4022
-759k  123.114.19.80:4000
+1350k  221.219.101.215:8012
+1160k  wg.mxmy.net:8888
+1078k  bplwberp.zzmd.fun:8888
+838k  123.114.19.80:4000
