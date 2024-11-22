@@ -207,9 +207,9 @@ while IFS= read -r line; do
     ip="$line"
     url="http://$ip/$stream"
     echo "$url"
-    curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
-    a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
-
+    #    curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
+    #    a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
+    a=$(./speed.sh "$url")
     echo "第 $i/$lines 个：$ip $a"
     echo "$ip $a" >> "speedtest_${city}_$time.log"
 done < "$only_good_ip"
