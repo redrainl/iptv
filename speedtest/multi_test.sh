@@ -179,8 +179,9 @@ while read line; do
 
     else
         echo $url
-        curl $url --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
-        a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
+        #   curl $url --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
+        #    a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
+	a=$(./speed.sh $url)
     fi  
 
     echo "第$i/$lines个：$ip    $a"
