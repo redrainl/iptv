@@ -22,6 +22,7 @@ jobs:
       #working-directory: iptv/speedtest
       run: |
         cd $GITHUB_WORKSPACE/speedtest
+        chmod +x speed.sh
         bash ./multi_test.sh
         bash ./fofa.sh
     - name: Update Results
