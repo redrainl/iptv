@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # 检查是否提供了 URL 参数
-if [ "$#" -ne 1 ]; then
-    echo "用法: $0 <URL>"
+if [ "$#" -ne 2 ]; then
+    echo "用法: $0 <ip> <stream>"
     exit 1
 fi
 
 # IPTV 地址
-URL="$1"
+URL="http://$1/$2"
 # 输出文件名
 OUTPUT_FILE="temp_video.mp4" 
 
@@ -36,8 +36,8 @@ FILE_SIZE=$(stat -c%s "$OUTPUT_FILE")
 DOWNLOAD_SPEED=$(echo "scale=2; $FILE_SIZE / $DURATION" | bc)
 # 将下载速度转换为 Mb/s
 DOWNLOAD_SPEED_MBPS=$(echo "scale=2; $DOWNLOAD_SPEED * 8 / 1000000" | bc)
-# 判断 DOWNLOAD_SPEED_MBPS 是否小于 3M，速度太慢的节点不要也罢
-if (( $(echo "$DOWNLOAD_SPEED_MBPS < 3" | bc -l) )); then
+# 判断 DOWNLOAD_SPEED_MBPS 是否小于 5M，速度太慢的节点不要也罢
+if (( $(echo "$DOWNLOAD_SPEED_MBPS < 5" | bc -l) )); then
     DOWNLOAD_SPEED_MBPS=0
 fi
 
