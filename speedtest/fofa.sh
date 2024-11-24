@@ -274,4 +274,4 @@ echo "河北联通,#genre#" >>zubo_fofa.txt
 cat txt/Hebei_313.txt >>zubo_fofa.txt
 
 
-for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
+# for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
