@@ -200,21 +200,28 @@ fi
 lines=$(wc -l < "$only_good_ip")
 echo "【$only_good_ip】内 ip 共计 $lines 个"
 
-i=0
-time=$(date +%Y%m%d%H%M%S) # 定义 time 变量
-while IFS= read -r line; do
-    i=$((i + 1))
-    ip="$line"
-    url="http://$ip/$stream"
-    echo "$url"
-    #    curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >zubo.tmp 2>&1
-    #    a=$(head -n 3 zubo.tmp | awk '{print $NF}' | tail -n 1)
-    a=$(./speed.sh "$url")
-    echo "第 $i/$lines 个：$ip $a"
-    echo "$ip $a" >> "speedtest_${city}_$time.log"
+line_i=0
+mkdir -p tmpip
+while read -r line; do
+    ip=$(echo "$line" | sed 's/^[ \t]*//;s/[ \t]*$//')  # 去除首尾空格
+    
+    # 如果行不为空，则写入临时文件
+    if [ -n "$ip" ]; then
+        echo "$ip" > "tmpip/ip_$line_i.txt"  # 保存为 tmpip 目录下的临时文件
+        ((line_i++))
+    fi
 done < "$only_good_ip"
 
-rm -f zubo.tmp
+line_i=0
+for temp_file in tmpip/ip_*.txt; do
+      ((line_i++))
+     ip=$(<"$temp_file")  # 从临时文件中读取 IP 地址
+     a=$(./speed.sh "$ip" "$stream")
+     echo "第 $line_i/$lines 个：$ip $a"
+     echo "$ip $a" >> "speedtest_${city}_$time.log"
+done
+rm -rf tmpip/*
+
 awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r >"result/result_fofa_${city}.txt"
 cat "result/result_fofa_${city}.txt"
 ip1=$(awk 'NR==1{print $2}' result/result_fofa_${city}.txt)
