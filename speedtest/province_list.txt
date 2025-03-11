@@ -1,0 +1,14 @@
+city file stream
+Shanghai Shanghai_103 udp/233.18.204.57:5140  
+Sichuan Sichuan_333 udp/239.93.0.184:5140
+Hunan Hunan_282 udp/239.76.251.87:9000
+Beijing Beijing_dianxin_186 udp/225.1.8.80:2000
+Zhejiang Zhejiang_120 rtp/233.50.201.118:5140
+Guangdong Guangdong_332 udp/239.77.1.98:5146
+Henan Henan_327 rtp/239.16.20.1:10010
+Tianjin Tianjin_160 udp/225.1.2.190:5002
+Hubei Hubei_90 rtp/239.69.1.141:10482
+Fujian Fujian_114 rtp/239.61.2.183:9086
+Gansu Gansu_105 udp/239.255.30.123:8231"
+Hebei Hebei_333 rtp/239.253.93.134:6631
+Chongqing Chongqing rtp/235.254.199.51:7980
