@@ -1,0 +1,13 @@
+做了以下修改：
+1、增加quake360搜索ip，（需要改为自己的token）
+2、全部使用ffmpeg测速，增加获取视频的帧数作为判断条件，排除几秒就断流的组播ip
+使用方式举例：bash update_ip.sh Shanghai
+执行顺序如下：
+   1、从fofa搜索ip，保存为ip.tmp
+   2、从quake360搜索ip，追加至ip.tmp
+   3、用nc命令对ip和端口进行检测，将可连接的ip追加保存至sum/Shanhai_103_sum.ip
+   4、将上述文件的ip去重后，生成sum/Shanghai_103_uniq.ip
+   5、在tmpip目录下为每个ip、端口生成一个文件，如ip_1.txt  ip_2.txt
+   6、ffmpeg循环用tmpip下的每个ip文件进行测速，测速的地址为ip 端口 + province_list.txt文件中定义的地址，测速结果保存至speedtest_Shanghai.log(速度小于3M或帧数小于400的，速度归零)
+   7、从speedtest_Shanghai.log中筛选出下载速度>6M的ip，保存至sum/tmp/result_fofa_Shanghai_103.txt
+   8、用template目录下对应的列表模板文件template_Shanghai_103.txt,分别套用上述文件中的ip，合并生成频道列表 sum/tmp/result_fofa_Shanghai_103.txt
