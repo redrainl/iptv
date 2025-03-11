@@ -10,4 +10,4 @@
    5、在tmpip目录下为每个ip、端口生成一个文件，如ip_1.txt  ip_2.txt
    6、ffmpeg循环用tmpip下的每个ip文件进行测速，测速的地址为ip 端口 + province_list.txt文件中定义的地址，测速结果保存至speedtest_Shanghai.log(速度小于3M或帧数小于400的，速度归零)
    7、从speedtest_Shanghai.log中筛选出下载速度>6M的ip，保存至sum/tmp/result_fofa_Shanghai_103.txt
-   8、用template目录下对应的列表模板文件template_Shanghai_103.txt,分别套用上述文件中的ip，合并生成频道列表 sum/tmp/result_fofa_Shanghai_103.txt
+   8、用template目录下对应的列表模板文件template_Shanghai_103.txt,分别套用上述文件中的ip，合并生成频道列表 sum/Shanghai_103.txt
