@@ -73,6 +73,8 @@ for temp_file in tmpip/ip_*.txt; do
             echo "下载文件为空：$ip"
             DOWNLOAD_SPEED_MBPS=0
         else
+            cat ffmpeg.log
+            echo "Frames:  "$Frames
             # 计算下载速度（字节/秒）
             DOWNLOAD_SPEED=$(echo "scale=2; $FILE_SIZE / $DURATION" | bc)
             # 将下载速度转换为 Mb/s
