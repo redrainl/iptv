@@ -1,0 +1,36 @@
+name: Daily Job
+
+on:
+  schedule:
+   # - cron: "0 20 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y yt-dlp sed nmap
+      
+    - name: Run Multitest Script
+      #working-directory: iptv/sp
+      run: |
+        cd $GITHUB_WORKSPACE/sp
+        chmod +x ipcheck_from_list.sh
+        #bash ./multi_test.sh
+        bash ./ipcheck_from_list.sh ips_sichuan.txt Sichuan
+        bash ./speedtest_only.sh ips_sichuan.txt Sichuan
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE/sp
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update results"
+        git push
