@@ -24,7 +24,7 @@ jobs:
         chmod +x ipcheck_from_list.sh
         #bash ./multi_test.sh
         bash ./ipcheck_from_list.sh ips_sichuan.txt Sichuan
-        bash ./speedtest_only.sh ips_sichuan.txt Sichuan
+        bash ./speedtest_only.sh sum/Sichuan_333_uniq.txt Sichuan
     - name: Update Results
       run: |
         cd $GITHUB_WORKSPACE/sp
