@@ -1,5 +1,4 @@
-name: Daily Job
-
+name: iptv
 on:
   schedule:
    # - cron: "0 20 * * *"
