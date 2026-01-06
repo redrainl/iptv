@@ -87,7 +87,7 @@ for temp_file in tmpip/ip_*.txt; do
                else
                 if (( Frames < $FRAME_LIMIT ));then
                     echo "-------下载速度可($DOWNLOAD_SPEED_MBPS)，但测试帧数低:" $Frames"------------"
-                    DOWNLOAD_SPEED_MBPS=0
+              #      DOWNLOAD_SPEED_MBPS=0
                 fi
             fi
             
