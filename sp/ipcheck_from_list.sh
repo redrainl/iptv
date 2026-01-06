@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /root/iptv
 ipfile=$1
 region=$2
 port=$3
