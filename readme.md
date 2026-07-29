@@ -1,4 +1,4 @@
-<pre style="white-space: pre-wrap;">
+<pre style="white-space: pre-wrap; font-family: ui-monospace, monospace;">
 更新：
   run.sh 生成播放列表文件
     调用docker镜像运行batch_test.sh脚本，测试sh.ip列表内的地址可用性，根据获取视频帧率排序，生成可用的组播ip列表文件result
