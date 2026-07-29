@@ -7,4 +7,4 @@
     scan.sh  扫描活跃ip端口
        脚本内直接构建docker镜像，运行scan.py,检测ips_Shanghai列表中活跃的ip+端口,生成alive.txt, 实际上也就是run.sh中使用的sh.ip文件。ips_Shanghai为要扫描的自定义范围的ip:port。 
 
-<pre>
+</pre>
